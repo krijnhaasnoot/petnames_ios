@@ -13,6 +13,10 @@ struct AboutView: View {
     private let kinderAppURL = URL(string: "https://apps.apple.com/nl/app/kinder-find-baby-names/id1068421785")!
     private let whatsAppURL = URL(string: "https://wa.me/31611220008")!
     
+    // Hidden analytics trigger
+    @State private var versionTapCount = 0
+    @State private var showAnalytics = false
+    
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 32) {
@@ -171,9 +175,17 @@ struct AboutView: View {
                 .fontWeight(.medium)
                 .foregroundStyle(.secondary)
             
+            // Hidden analytics trigger - tap 5 times
             Text("Versie 1.0")
                 .font(.caption)
                 .foregroundStyle(.tertiary)
+                .onTapGesture {
+                    versionTapCount += 1
+                    if versionTapCount >= 5 {
+                        versionTapCount = 0
+                        showAnalytics = true
+                    }
+                }
             
             Text("© 2026 Krijn Haasnoot")
                 .font(.caption2)
@@ -181,6 +193,113 @@ struct AboutView: View {
         }
         .frame(maxWidth: .infinity)
         .padding(.top, 16)
+        .sheet(isPresented: $showAnalytics) {
+            InternalAnalyticsView()
+        }
+    }
+}
+
+// MARK: - Internal Analytics View (Hidden)
+
+struct InternalAnalyticsView: View {
+    @Environment(\.dismiss) private var dismiss
+    @StateObject private var appState = AppState.shared
+    
+    var body: some View {
+        NavigationStack {
+            List {
+                // MARK: Usage Stats
+                Section("📊 Gebruik") {
+                    StatRow(label: "Namen geswiped", value: "\(NamesRepository.shared.swipedCount)")
+                    StatRow(label: "Resterende namen", value: "\(NamesRepository.shared.remainingCount)")
+                    StatRow(label: "Totaal beschikbaar", value: "\(NamesRepository.shared.totalNamesCount)")
+                }
+                
+                // MARK: Likes & Matches
+                Section("❤️ Likes & Matches") {
+                    StatRow(label: "Lokale likes", value: "\(SwipesRepository.shared.localLikesCount)")
+                }
+                
+                // MARK: Filters
+                Section("🎛️ Actieve Filters") {
+                    StatRow(label: "Talen", value: appState.selectedLanguages.map { $0.flag }.joined())
+                    StatRow(label: "Stijlen", value: "\(appState.enabledStyles.count) / \(PetStyle.allCases.count)")
+                    StatRow(label: "Geslacht", value: appState.filters.gender == "any" ? "Alle" : appState.filters.gender)
+                    if appState.filters.startsWith != "any" {
+                        StatRow(label: "Begint met", value: appState.filters.startsWith.uppercased())
+                    }
+                    if appState.filters.maxLength > 0 {
+                        StatRow(label: "Max lengte", value: "\(appState.filters.maxLength)")
+                    }
+                }
+                
+                // MARK: Household
+                Section("🏠 Household") {
+                    if let id = appState.householdId {
+                        StatRow(label: "Household ID", value: String(id.uuidString.prefix(8)) + "...")
+                    } else {
+                        StatRow(label: "Household", value: "Niet ingesteld")
+                    }
+                    if let code = appState.inviteCode {
+                        StatRow(label: "Invite code", value: code)
+                    }
+                }
+                
+                // MARK: Features
+                Section("✨ Features") {
+                    StatRow(label: "Pet foto", value: PetPhotoManager.shared.petImage != nil ? "✓ Geüpload" : "–")
+                    StatRow(label: "Push notificaties", value: NotificationManager.shared.isAuthorized ? "✓ Aan" : "– Uit")
+                }
+                
+                // MARK: Data Management
+                Section("🗑️ Data beheer") {
+                    Button("Reset geswiped namen") {
+                        NamesRepository.shared.clearSwipedNames()
+                    }
+                    .foregroundStyle(.orange)
+                    
+                    Button("Wis lokale likes") {
+                        SwipesRepository.shared.clearLocalLikes()
+                    }
+                    .foregroundStyle(.orange)
+                    
+                    Button("Reset alle lokale data") {
+                        Persistence.clearAll()
+                        LocalNamesProvider.shared.clearCache()
+                        NamesRepository.shared.clearSwipedNames()
+                        SwipesRepository.shared.clearLocalLikes()
+                    }
+                    .foregroundStyle(.red)
+                }
+            }
+            .navigationTitle("📈 Analytics")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .confirmationAction) {
+                    Button("Sluiten") {
+                        dismiss()
+                    }
+                }
+            }
+        }
+    }
+}
+
+// MARK: - Stat Row
+
+private struct StatRow: View {
+    let label: String
+    let value: String
+    
+    var body: some View {
+        HStack {
+            Text(label)
+                .foregroundStyle(.secondary)
+            Spacer()
+            Text(value)
+                .fontWeight(.medium)
+                .foregroundStyle(.primary)
+        }
     }
 }
 

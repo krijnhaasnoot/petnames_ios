@@ -66,6 +66,12 @@ final class SwipesRepository {
         localLikes.count
     }
     
+    /// Clear all local likes
+    func clearLocalLikes() {
+        localLikes.removeAll()
+        saveLocalLikes()
+    }
+    
     // MARK: - Insert Swipe
     
     /// Records a swipe decision
