@@ -205,71 +205,31 @@ struct InternalAnalyticsView: View {
     @Environment(\.dismiss) private var dismiss
     @StateObject private var appState = AppState.shared
     
+    // Server stats
+    @State private var serverStats: ServerAnalytics?
+    @State private var topNames: [TopLikedName] = []
+    @State private var isLoading = true
+    @State private var selectedTab = 0
+    
     var body: some View {
         NavigationStack {
-            List {
-                // MARK: Usage Stats
-                Section("📊 Gebruik") {
-                    StatRow(label: "Namen geswiped", value: "\(NamesRepository.shared.swipedCount)")
-                    StatRow(label: "Resterende namen", value: "\(NamesRepository.shared.remainingCount)")
-                    StatRow(label: "Totaal beschikbaar", value: "\(NamesRepository.shared.totalNamesCount)")
+            VStack(spacing: 0) {
+                // Tab picker
+                Picker("", selection: $selectedTab) {
+                    Text("Lokaal").tag(0)
+                    Text("Server").tag(1)
+                    Text("Top 25").tag(2)
                 }
+                .pickerStyle(.segmented)
+                .padding()
                 
-                // MARK: Likes & Matches
-                Section("❤️ Likes & Matches") {
-                    StatRow(label: "Lokale likes", value: "\(SwipesRepository.shared.localLikesCount)")
-                }
-                
-                // MARK: Filters
-                Section("🎛️ Actieve Filters") {
-                    StatRow(label: "Talen", value: appState.selectedLanguages.map { $0.flag }.joined())
-                    StatRow(label: "Stijlen", value: "\(appState.enabledStyles.count) / \(PetStyle.allCases.count)")
-                    StatRow(label: "Geslacht", value: appState.filters.gender == "any" ? "Alle" : appState.filters.gender)
-                    if appState.filters.startsWith != "any" {
-                        StatRow(label: "Begint met", value: appState.filters.startsWith.uppercased())
-                    }
-                    if appState.filters.maxLength > 0 {
-                        StatRow(label: "Max lengte", value: "\(appState.filters.maxLength)")
-                    }
-                }
-                
-                // MARK: Household
-                Section("🏠 Household") {
-                    if let id = appState.householdId {
-                        StatRow(label: "Household ID", value: String(id.uuidString.prefix(8)) + "...")
-                    } else {
-                        StatRow(label: "Household", value: "Niet ingesteld")
-                    }
-                    if let code = appState.inviteCode {
-                        StatRow(label: "Invite code", value: code)
-                    }
-                }
-                
-                // MARK: Features
-                Section("✨ Features") {
-                    StatRow(label: "Pet foto", value: PetPhotoManager.shared.petImage != nil ? "✓ Geüpload" : "–")
-                    StatRow(label: "Push notificaties", value: NotificationManager.shared.isAuthorized ? "✓ Aan" : "– Uit")
-                }
-                
-                // MARK: Data Management
-                Section("🗑️ Data beheer") {
-                    Button("Reset geswiped namen") {
-                        NamesRepository.shared.clearSwipedNames()
-                    }
-                    .foregroundStyle(.orange)
-                    
-                    Button("Wis lokale likes") {
-                        SwipesRepository.shared.clearLocalLikes()
-                    }
-                    .foregroundStyle(.orange)
-                    
-                    Button("Reset alle lokale data") {
-                        Persistence.clearAll()
-                        LocalNamesProvider.shared.clearCache()
-                        NamesRepository.shared.clearSwipedNames()
-                        SwipesRepository.shared.clearLocalLikes()
-                    }
-                    .foregroundStyle(.red)
+                // Content
+                if selectedTab == 0 {
+                    localStatsView
+                } else if selectedTab == 1 {
+                    serverStatsView
+                } else {
+                    topNamesView
                 }
             }
             .navigationTitle("📈 Analytics")
@@ -281,7 +241,257 @@ struct InternalAnalyticsView: View {
                     }
                 }
             }
+            .task {
+                await loadServerStats()
+            }
         }
+    }
+    
+    // MARK: - Local Stats View
+    
+    private var localStatsView: some View {
+        List {
+            Section("📊 Lokaal gebruik") {
+                StatRow(label: "Namen geswiped", value: "\(NamesRepository.shared.swipedCount)")
+                StatRow(label: "Resterende namen", value: "\(NamesRepository.shared.remainingCount)")
+                StatRow(label: "Totaal beschikbaar", value: "\(NamesRepository.shared.totalNamesCount)")
+                StatRow(label: "Lokale likes", value: "\(SwipesRepository.shared.localLikesCount)")
+            }
+            
+            Section("🎛️ Actieve Filters") {
+                StatRow(label: "Talen", value: appState.selectedLanguages.map { $0.flag }.joined())
+                StatRow(label: "Stijlen", value: "\(appState.enabledStyles.count) / \(PetStyle.allCases.count)")
+                StatRow(label: "Geslacht", value: appState.filters.gender == "any" ? "Alle" : appState.filters.gender)
+            }
+            
+            Section("🏠 Household") {
+                if let id = appState.householdId {
+                    StatRow(label: "ID", value: String(id.uuidString.prefix(8)) + "...")
+                }
+                if let code = appState.inviteCode {
+                    StatRow(label: "Code", value: code)
+                }
+            }
+            
+            Section("🗑️ Data beheer") {
+                Button("Reset geswiped namen") {
+                    NamesRepository.shared.clearSwipedNames()
+                }
+                .foregroundStyle(.orange)
+                
+                Button("Wis lokale likes") {
+                    SwipesRepository.shared.clearLocalLikes()
+                }
+                .foregroundStyle(.orange)
+                
+                Button("Reset alle lokale data") {
+                    Persistence.clearAll()
+                    LocalNamesProvider.shared.clearCache()
+                    NamesRepository.shared.clearSwipedNames()
+                    SwipesRepository.shared.clearLocalLikes()
+                }
+                .foregroundStyle(.red)
+            }
+        }
+    }
+    
+    // MARK: - Server Stats View
+    
+    private var serverStatsView: some View {
+        List {
+            if isLoading {
+                Section {
+                    HStack {
+                        Spacer()
+                        ProgressView()
+                        Spacer()
+                    }
+                }
+            } else if let stats = serverStats {
+                Section("👥 Gebruikers") {
+                    StatRow(label: "Totaal gebruikers", value: "\(stats.totalUsers)")
+                    StatRow(label: "Totaal households", value: "\(stats.totalHouseholds)")
+                    StatRow(label: "Actief vandaag", value: "\(stats.activeToday)")
+                    StatRow(label: "Actief deze week", value: "\(stats.activeWeek)")
+                }
+                
+                Section("📊 Swipes") {
+                    StatRow(label: "Totaal swipes", value: formatNumber(stats.totalSwipes))
+                    StatRow(label: "Likes", value: formatNumber(stats.totalLikes))
+                    StatRow(label: "Dismisses", value: formatNumber(stats.totalDismisses))
+                    StatRow(label: "Like ratio", value: String(format: "%.1f%%", stats.likeRatio))
+                }
+                
+                Section("💕 Matches") {
+                    StatRow(label: "Totaal matches", value: formatNumber(stats.totalMatches))
+                }
+            } else {
+                Section {
+                    Text("Kon server stats niet laden")
+                        .foregroundStyle(.secondary)
+                }
+            }
+            
+            Section {
+                Button("Vernieuwen") {
+                    Task { await loadServerStats() }
+                }
+            }
+        }
+    }
+    
+    // MARK: - Top Names View
+    
+    private var topNamesView: some View {
+        List {
+            if isLoading {
+                Section {
+                    HStack {
+                        Spacer()
+                        ProgressView()
+                        Spacer()
+                    }
+                }
+            } else if topNames.isEmpty {
+                Section {
+                    Text("Geen data beschikbaar")
+                        .foregroundStyle(.secondary)
+                }
+            } else {
+                Section("🏆 Top 25 meest gelikte namen") {
+                    ForEach(Array(topNames.enumerated()), id: \.element.name) { index, item in
+                        HStack(spacing: 12) {
+                            // Rank
+                            Text("\(index + 1)")
+                                .font(.headline)
+                                .foregroundStyle(.secondary)
+                                .frame(width: 28)
+                            
+                            // Medal for top 3
+                            if index == 0 {
+                                Text("🥇")
+                            } else if index == 1 {
+                                Text("🥈")
+                            } else if index == 2 {
+                                Text("🥉")
+                            }
+                            
+                            // Gender indicator
+                            Circle()
+                                .fill(genderColor(item.gender))
+                                .frame(width: 10, height: 10)
+                            
+                            // Name
+                            VStack(alignment: .leading, spacing: 2) {
+                                Text(item.name)
+                                    .font(.body)
+                                    .fontWeight(.medium)
+                                
+                                if let setTitle = item.setTitle {
+                                    Text(setTitle)
+                                        .font(.caption)
+                                        .foregroundStyle(.secondary)
+                                }
+                            }
+                            
+                            Spacer()
+                            
+                            // Like count
+                            HStack(spacing: 4) {
+                                Image(systemName: "heart.fill")
+                                    .foregroundStyle(.pink)
+                                    .font(.caption)
+                                Text("\(item.likesCount)")
+                                    .fontWeight(.semibold)
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    // MARK: - Helpers
+    
+    private func loadServerStats() async {
+        isLoading = true
+        defer { isLoading = false }
+        
+        let client = SupabaseClientProvider.shared.client
+        
+        // Load stats
+        do {
+            let response = try await client.rpc("get_analytics_stats").execute()
+            serverStats = try JSONDecoder().decode(ServerAnalytics.self, from: response.data)
+        } catch {
+            print("❌ Failed to load server stats: \(error)")
+        }
+        
+        // Load top names
+        do {
+            let response = try await client.rpc("get_top_liked_names", params: ["p_limit": 25]).execute()
+            topNames = try JSONDecoder().decode([TopLikedName].self, from: response.data)
+        } catch {
+            print("❌ Failed to load top names: \(error)")
+        }
+    }
+    
+    private func formatNumber(_ num: Int) -> String {
+        let formatter = NumberFormatter()
+        formatter.numberStyle = .decimal
+        formatter.groupingSeparator = "."
+        return formatter.string(from: NSNumber(value: num)) ?? "\(num)"
+    }
+    
+    private func genderColor(_ gender: String) -> Color {
+        switch gender {
+        case "male": return Color(hex: "4A90D9")
+        case "female": return Color(hex: "E91E8C")
+        default: return Color(hex: "2CB3B0")
+        }
+    }
+}
+
+// MARK: - Server Analytics Models
+
+struct ServerAnalytics: Codable {
+    let totalUsers: Int
+    let totalHouseholds: Int
+    let totalSwipes: Int
+    let totalLikes: Int
+    let totalDismisses: Int
+    let totalMatches: Int
+    let activeToday: Int
+    let activeWeek: Int
+    
+    var likeRatio: Double {
+        guard totalSwipes > 0 else { return 0 }
+        return Double(totalLikes) / Double(totalSwipes) * 100
+    }
+    
+    enum CodingKeys: String, CodingKey {
+        case totalUsers = "total_users"
+        case totalHouseholds = "total_households"
+        case totalSwipes = "total_swipes"
+        case totalLikes = "total_likes"
+        case totalDismisses = "total_dismisses"
+        case totalMatches = "total_matches"
+        case activeToday = "active_today"
+        case activeWeek = "active_week"
+    }
+}
+
+struct TopLikedName: Codable {
+    let name: String
+    let gender: String
+    let likesCount: Int
+    let setTitle: String?
+    
+    enum CodingKeys: String, CodingKey {
+        case name
+        case gender
+        case likesCount = "likes_count"
+        case setTitle = "set_title"
     }
 }
 
