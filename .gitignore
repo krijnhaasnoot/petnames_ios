@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+*.swp
+*~
+
+# Xcode
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+DerivedData/
+build/
+
+# Firebase / Google Services (contains API keys)
+GoogleService-Info.plist
+GoogleService-Info*.plist
+
+# Secrets & Keys
+*.p8
+*.p12
+*.pem
+*.key
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Environment files
+.env
+.env.*
+*.xcconfig
+
+# IDE
+.idea/
+*.iml
