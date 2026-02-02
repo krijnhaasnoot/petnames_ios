@@ -242,6 +242,23 @@ struct FiltersSheetView: View {
     
     private var otherFiltersSection: some View {
         Section("filters.otherFilters") {
+            // Gender picker
+            Picker("filters.gender", selection: $selectedGender) {
+                Text("filters.genderAny").tag("any")
+                Text("filters.genderMale").tag("male")
+                Text("filters.genderFemale").tag("female")
+            }
+            .pickerStyle(.segmented)
+            
+            // Gender explanation
+            if selectedGender != "any" {
+                Text(selectedGender == "male" 
+                    ? "filters.genderMaleHint" 
+                    : "filters.genderFemaleHint")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+            }
+            
             // Starts with
             Picker("filters.startsWith", selection: $selectedStartsWith) {
                 Text("filters.any").tag("any")
