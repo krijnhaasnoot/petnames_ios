@@ -1,0 +1,7652 @@
+{
+  "version": 3,
+  "lastUpdated": "2026-02-02T12:00:00Z",
+  "nameSets": [
+    {
+      "slug": "pets_nl_cute",
+      "title": "Lief & Schattig",
+      "description": "Zachte, lieve namen die perfect zijn voor huisdieren",
+      "language": "nl",
+      "style": "cute",
+      "names": [
+        {
+          "name": "Puk",
+          "gender": "neutral"
+        },
+        {
+          "name": "Pip",
+          "gender": "neutral"
+        },
+        {
+          "name": "Pippa",
+          "gender": "female"
+        },
+        {
+          "name": "Bink",
+          "gender": "neutral"
+        },
+        {
+          "name": "Bo",
+          "gender": "neutral"
+        },
+        {
+          "name": "Luna",
+          "gender": "female"
+        },
+        {
+          "name": "Fien",
+          "gender": "female"
+        },
+        {
+          "name": "Fleur",
+          "gender": "female"
+        },
+        {
+          "name": "Moppie",
+          "gender": "neutral"
+        },
+        {
+          "name": "Snoes",
+          "gender": "female"
+        },
+        {
+          "name": "Teddy",
+          "gender": "male"
+        },
+        {
+          "name": "Bella",
+          "gender": "female"
+        },
+        {
+          "name": "Nala",
+          "gender": "female"
+        },
+        {
+          "name": "Coco",
+          "gender": "neutral"
+        },
+        {
+          "name": "Pixie",
+          "gender": "female"
+        },
+        {
+          "name": "Snoepje",
+          "gender": "neutral"
+        },
+        {
+          "name": "Kruimel",
+          "gender": "neutral"
+        },
+        {
+          "name": "Honey",
+          "gender": "female"
+        },
+        {
+          "name": "Pluisje",
+          "gender": "neutral"
+        },
+        {
+          "name": "Vlekje",
+          "gender": "neutral"
+        },
+        {
+          "name": "Minnie",
+          "gender": "female"
+        },
+        {
+          "name": "Lola",
+          "gender": "female"
+        },
+        {
+          "name": "Princess",
+          "gender": "female"
+        },
+        {
+          "name": "Whitney",
+          "gender": "female"
+        },
+        {
+          "name": "Bentley",
+          "gender": "neutral"
+        },
+        {
+          "name": "Charley",
+          "gender": "neutral"
+        },
+        {
+          "name": "Chelsea",
+          "gender": "neutral"
+        },
+        {
+          "name": "Pebbles",
+          "gender": "neutral"
+        },
+        {
+          "name": "Quinta",
+          "gender": "female"
+        },
+        {
+          "name": "Shanti",
+          "gender": "female"
+        },
+        {
+          "name": "Sheila",
+          "gender": "female"
+        },
+        {
+          "name": "Sienna",
+          "gender": "female"
+        },
+        {
+          "name": "Bonita",
+          "gender": "female"
+        },
+        {
+          "name": "Nikita",
+          "gender": "female"
+        },
+        {
+          "name": "Sascha",
+          "gender": "female"
+        },
+        {
+          "name": "Sterre",
+          "gender": "female"
+        },
+        {
+          "name": "Casper",
+          "gender": "male"
+        },
+        {
+          "name": "Floris",
+          "gender": "male"
+        },
+        {
+          "name": "Morris",
+          "gender": "male"
+        },
+        {
+          "name": "Bijoux",
+          "gender": "neutral"
+        },
+        {
+          "name": "Buddha",
+          "gender": "neutral"
+        },
+        {
+          "name": "Chanel",
+          "gender": "neutral"
+        },
+        {
+          "name": "Bailey",
+          "gender": "neutral"
+        },
+        {
+          "name": "Beauty",
+          "gender": "neutral"
+        },
+        {
+          "name": "Branco",
+          "gender": "neutral"
+        },
+        {
+          "name": "Bumper",
+          "gender": "neutral"
+        },
+        {
+          "name": "Buster",
+          "gender": "neutral"
+        },
+        {
+          "name": "Ceasar",
+          "gender": "neutral"
+        },
+        {
+          "name": "Cooper",
+          "gender": "neutral"
+        },
+        {
+          "name": "Dexter",
+          "gender": "neutral"
+        },
+        {
+          "name": "Disney",
+          "gender": "neutral"
+        },
+        {
+          "name": "Hailey",
+          "gender": "neutral"
+        },
+        {
+          "name": "Harley",
+          "gender": "neutral"
+        },
+        {
+          "name": "Kaylee",
+          "gender": "neutral"
+        },
+        {
+          "name": "Marley",
+          "gender": "neutral"
+        },
+        {
+          "name": "Mellow",
+          "gender": "neutral"
+        },
+        {
+          "name": "Mischa",
+          "gender": "neutral"
+        },
+        {
+          "name": "Muffin",
+          "gender": "neutral"
+        },
+        {
+          "name": "Murphy",
+          "gender": "neutral"
+        },
+        {
+          "name": "Nelson",
+          "gender": "neutral"
+        },
+        {
+          "name": "Quincy",
+          "gender": "neutral"
+        },
+        {
+          "name": "Quinty",
+          "gender": "neutral"
+        },
+        {
+          "name": "Scooby",
+          "gender": "neutral"
+        },
+        {
+          "name": "Shadow",
+          "gender": "neutral"
+        },
+        {
+          "name": "Shelby",
+          "gender": "neutral"
+        },
+        {
+          "name": "Smokey",
+          "gender": "neutral"
+        },
+        {
+          "name": "Snoopy",
+          "gender": "neutral"
+        },
+        {
+          "name": "Woezel",
+          "gender": "neutral"
+        },
+        {
+          "name": "Lilly",
+          "gender": "female"
+        },
+        {
+          "name": "Daisy",
+          "gender": "female"
+        },
+        {
+          "name": "Lieve",
+          "gender": "female"
+        },
+        {
+          "name": "Engel",
+          "gender": "female"
+        },
+        {
+          "name": "Bambi",
+          "gender": "neutral"
+        },
+        {
+          "name": "Dolly",
+          "gender": "neutral"
+        },
+        {
+          "name": "Molly",
+          "gender": "neutral"
+        },
+        {
+          "name": "Ginny",
+          "gender": "neutral"
+        },
+        {
+          "name": "Laila",
+          "gender": "neutral"
+        },
+        {
+          "name": "Layla",
+          "gender": "female"
+        },
+        {
+          "name": "Misty",
+          "gender": "neutral"
+        },
+        {
+          "name": "Winnie",
+          "gender": "neutral"
+        },
+        {
+          "name": "Yindi",
+          "gender": "female"
+        },
+        {
+          "name": "Prince",
+          "gender": "male"
+        },
+        {
+          "name": "Chicco",
+          "gender": "male"
+        },
+        {
+          "name": "Quinto",
+          "gender": "male"
+        },
+        {
+          "name": "Scotty",
+          "gender": "male"
+        },
+        {
+          "name": "Brutus",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "slug": "pets_nl_strong",
+      "title": "Kort & Stoer",
+      "description": "Korte, krachtige namen met een stoer randje",
+      "language": "nl",
+      "style": "strong",
+      "names": [
+        {
+          "name": "Max",
+          "gender": "male"
+        },
+        {
+          "name": "Rex",
+          "gender": "male"
+        },
+        {
+          "name": "Duke",
+          "gender": "male"
+        },
+        {
+          "name": "Thor",
+          "gender": "male"
+        },
+        {
+          "name": "Diesel",
+          "gender": "male"
+        },
+        {
+          "name": "Rocky",
+          "gender": "male"
+        },
+        {
+          "name": "Spike",
+          "gender": "male"
+        },
+        {
+          "name": "Wolf",
+          "gender": "male"
+        },
+        {
+          "name": "Bruno",
+          "gender": "male"
+        },
+        {
+          "name": "Ace",
+          "gender": "male"
+        },
+        {
+          "name": "Tank",
+          "gender": "male"
+        },
+        {
+          "name": "Zeus",
+          "gender": "male"
+        },
+        {
+          "name": "King",
+          "gender": "male"
+        },
+        {
+          "name": "Titan",
+          "gender": "male"
+        },
+        {
+          "name": "Blitz",
+          "gender": "male"
+        },
+        {
+          "name": "Chase",
+          "gender": "male"
+        },
+        {
+          "name": "Hunter",
+          "gender": "male"
+        },
+        {
+          "name": "Ranger",
+          "gender": "male"
+        },
+        {
+          "name": "Rebel",
+          "gender": "male"
+        },
+        {
+          "name": "Flash",
+          "gender": "male"
+        },
+        {
+          "name": "Fang",
+          "gender": "male"
+        },
+        {
+          "name": "Rocco",
+          "gender": "male"
+        },
+        {
+          "name": "Colt",
+          "gender": "male"
+        },
+        {
+          "name": "Kane",
+          "gender": "male"
+        },
+        {
+          "name": "Alice",
+          "gender": "female"
+        },
+        {
+          "name": "Amber",
+          "gender": "female"
+        },
+        {
+          "name": "Dushi",
+          "gender": "female"
+        },
+        {
+          "name": "Fenna",
+          "gender": "female"
+        },
+        {
+          "name": "Freya",
+          "gender": "female"
+        },
+        {
+          "name": "Nikki",
+          "gender": "female"
+        },
+        {
+          "name": "Sacha",
+          "gender": "female"
+        },
+        {
+          "name": "Sally",
+          "gender": "female"
+        },
+        {
+          "name": "Sanne",
+          "gender": "female"
+        },
+        {
+          "name": "Sarah",
+          "gender": "female"
+        },
+        {
+          "name": "Shiva",
+          "gender": "female"
+        },
+        {
+          "name": "Tessa",
+          "gender": "female"
+        },
+        {
+          "name": "Tosca",
+          "gender": "female"
+        },
+        {
+          "name": "Zorra",
+          "gender": "female"
+        },
+        {
+          "name": "Lizzy",
+          "gender": "female"
+        },
+        {
+          "name": "Cindy",
+          "gender": "female"
+        },
+        {
+          "name": "Faith",
+          "gender": "female"
+        },
+        {
+          "name": "Belle",
+          "gender": "female"
+        },
+        {
+          "name": "Bente",
+          "gender": "female"
+        },
+        {
+          "name": "Donja",
+          "gender": "female"
+        },
+        {
+          "name": "Donna",
+          "gender": "female"
+        },
+        {
+          "name": "Floor",
+          "gender": "female"
+        },
+        {
+          "name": "Indra",
+          "gender": "female"
+        },
+        {
+          "name": "Jenna",
+          "gender": "female"
+        },
+        {
+          "name": "Kelly",
+          "gender": "female"
+        },
+        {
+          "name": "Kiara",
+          "gender": "female"
+        },
+        {
+          "name": "Loena",
+          "gender": "female"
+        },
+        {
+          "name": "Lotte",
+          "gender": "female"
+        },
+        {
+          "name": "Mandy",
+          "gender": "female"
+        },
+        {
+          "name": "Milou",
+          "gender": "female"
+        },
+        {
+          "name": "Mindy",
+          "gender": "female"
+        },
+        {
+          "name": "Missy",
+          "gender": "female"
+        },
+        {
+          "name": "Sandy",
+          "gender": "female"
+        },
+        {
+          "name": "Sasha",
+          "gender": "female"
+        },
+        {
+          "name": "Sasja",
+          "gender": "female"
+        },
+        {
+          "name": "Senna",
+          "gender": "female"
+        },
+        {
+          "name": "Sonja",
+          "gender": "female"
+        },
+        {
+          "name": "Tinka",
+          "gender": "female"
+        },
+        {
+          "name": "Zenna",
+          "gender": "female"
+        },
+        {
+          "name": "Bibi",
+          "gender": "female"
+        },
+        {
+          "name": "Inka",
+          "gender": "female"
+        },
+        {
+          "name": "Iris",
+          "gender": "female"
+        },
+        {
+          "name": "Lana",
+          "gender": "female"
+        },
+        {
+          "name": "Lara",
+          "gender": "female"
+        },
+        {
+          "name": "Nina",
+          "gender": "female"
+        },
+        {
+          "name": "Noor",
+          "gender": "female"
+        },
+        {
+          "name": "Nora",
+          "gender": "female"
+        },
+        {
+          "name": "Romy",
+          "gender": "female"
+        },
+        {
+          "name": "Roos",
+          "gender": "female"
+        },
+        {
+          "name": "Rosa",
+          "gender": "female"
+        },
+        {
+          "name": "Rose",
+          "gender": "female"
+        },
+        {
+          "name": "Roxy",
+          "gender": "female"
+        },
+        {
+          "name": "Ruby",
+          "gender": "female"
+        },
+        {
+          "name": "Saar",
+          "gender": "female"
+        },
+        {
+          "name": "Sara",
+          "gender": "female"
+        },
+        {
+          "name": "Suus",
+          "gender": "female"
+        },
+        {
+          "name": "Tess",
+          "gender": "female"
+        },
+        {
+          "name": "Yara",
+          "gender": "female"
+        },
+        {
+          "name": "Yuna",
+          "gender": "female"
+        },
+        {
+          "name": "Zina",
+          "gender": "female"
+        },
+        {
+          "name": "Zita",
+          "gender": "female"
+        },
+        {
+          "name": "Ziva",
+          "gender": "female"
+        },
+        {
+          "name": "Zoey",
+          "gender": "female"
+        },
+        {
+          "name": "Zora",
+          "gender": "female"
+        },
+        {
+          "name": "Lucy",
+          "gender": "female"
+        },
+        {
+          "name": "Babs",
+          "gender": "female"
+        },
+        {
+          "name": "Dana",
+          "gender": "female"
+        },
+        {
+          "name": "Demi",
+          "gender": "female"
+        },
+        {
+          "name": "Didi",
+          "gender": "female"
+        },
+        {
+          "name": "Ella",
+          "gender": "female"
+        },
+        {
+          "name": "Hera",
+          "gender": "female"
+        },
+        {
+          "name": "Jane",
+          "gender": "female"
+        },
+        {
+          "name": "Jill",
+          "gender": "female"
+        },
+        {
+          "name": "Kiki",
+          "gender": "female"
+        },
+        {
+          "name": "Lena",
+          "gender": "female"
+        },
+        {
+          "name": "Lisa",
+          "gender": "female"
+        },
+        {
+          "name": "Mira",
+          "gender": "female"
+        },
+        {
+          "name": "Nena",
+          "gender": "female"
+        },
+        {
+          "name": "Raya",
+          "gender": "female"
+        },
+        {
+          "name": "Siba",
+          "gender": "female"
+        },
+        {
+          "name": "Sita",
+          "gender": "female"
+        },
+        {
+          "name": "Tara",
+          "gender": "female"
+        },
+        {
+          "name": "Tyra",
+          "gender": "female"
+        },
+        {
+          "name": "Ulla",
+          "gender": "female"
+        },
+        {
+          "name": "Xena",
+          "gender": "female"
+        },
+        {
+          "name": "Zara",
+          "gender": "female"
+        },
+        {
+          "name": "Zena",
+          "gender": "female"
+        },
+        {
+          "name": "Zoe",
+          "gender": "female"
+        },
+        {
+          "name": "Pien",
+          "gender": "female"
+        },
+        {
+          "name": "Vera",
+          "gender": "female"
+        },
+        {
+          "name": "Doris",
+          "gender": "female"
+        },
+        {
+          "name": "Joya",
+          "gender": "female"
+        },
+        {
+          "name": "Mimi",
+          "gender": "female"
+        },
+        {
+          "name": "Nita",
+          "gender": "female"
+        },
+        {
+          "name": "Risa",
+          "gender": "female"
+        },
+        {
+          "name": "Juli",
+          "gender": "female"
+        },
+        {
+          "name": "Kyra",
+          "gender": "female"
+        },
+        {
+          "name": "Lia",
+          "gender": "female"
+        },
+        {
+          "name": "Gigi",
+          "gender": "female"
+        },
+        {
+          "name": "Kiko",
+          "gender": "female"
+        },
+        {
+          "name": "Lilo",
+          "gender": "female"
+        },
+        {
+          "name": "Loet",
+          "gender": "female"
+        },
+        {
+          "name": "Lot",
+          "gender": "female"
+        },
+        {
+          "name": "Zia",
+          "gender": "female"
+        },
+        {
+          "name": "Rifka",
+          "gender": "female"
+        },
+        {
+          "name": "Zus",
+          "gender": "female"
+        },
+        {
+          "name": "Filou",
+          "gender": "female"
+        },
+        {
+          "name": "Midas",
+          "gender": "male"
+        },
+        {
+          "name": "Oscar",
+          "gender": "male"
+        },
+        {
+          "name": "Chico",
+          "gender": "male"
+        },
+        {
+          "name": "Joris",
+          "gender": "male"
+        },
+        {
+          "name": "Pablo",
+          "gender": "male"
+        },
+        {
+          "name": "Renzo",
+          "gender": "male"
+        },
+        {
+          "name": "Rowan",
+          "gender": "male"
+        },
+        {
+          "name": "Scott",
+          "gender": "male"
+        },
+        {
+          "name": "Diego",
+          "gender": "male"
+        },
+        {
+          "name": "Jason",
+          "gender": "male"
+        },
+        {
+          "name": "Benji",
+          "gender": "male"
+        },
+        {
+          "name": "Bruce",
+          "gender": "male"
+        },
+        {
+          "name": "Floyd",
+          "gender": "male"
+        },
+        {
+          "name": "Flynn",
+          "gender": "male"
+        },
+        {
+          "name": "Harry",
+          "gender": "male"
+        },
+        {
+          "name": "Kenzo",
+          "gender": "male"
+        },
+        {
+          "name": "Louis",
+          "gender": "male"
+        },
+        {
+          "name": "Bram",
+          "gender": "male"
+        },
+        {
+          "name": "Dex",
+          "gender": "male"
+        },
+        {
+          "name": "Dean",
+          "gender": "male"
+        },
+        {
+          "name": "Duuk",
+          "gender": "male"
+        },
+        {
+          "name": "Finn",
+          "gender": "male"
+        },
+        {
+          "name": "Gijs",
+          "gender": "male"
+        },
+        {
+          "name": "Guus",
+          "gender": "male"
+        },
+        {
+          "name": "Hugo",
+          "gender": "male"
+        },
+        {
+          "name": "Jip",
+          "gender": "male"
+        },
+        {
+          "name": "Joep",
+          "gender": "male"
+        },
+        {
+          "name": "Koos",
+          "gender": "male"
+        },
+        {
+          "name": "Leo",
+          "gender": "male"
+        },
+        {
+          "name": "Mees",
+          "gender": "male"
+        },
+        {
+          "name": "Mike",
+          "gender": "male"
+        },
+        {
+          "name": "Mick",
+          "gender": "male"
+        },
+        {
+          "name": "Moos",
+          "gender": "male"
+        },
+        {
+          "name": "Niek",
+          "gender": "male"
+        },
+        {
+          "name": "Noud",
+          "gender": "male"
+        },
+        {
+          "name": "Otto",
+          "gender": "male"
+        },
+        {
+          "name": "Ries",
+          "gender": "male"
+        },
+        {
+          "name": "Rik",
+          "gender": "male"
+        },
+        {
+          "name": "Roef",
+          "gender": "male"
+        },
+        {
+          "name": "Ruud",
+          "gender": "male"
+        },
+        {
+          "name": "Siep",
+          "gender": "male"
+        },
+        {
+          "name": "Stan",
+          "gender": "male"
+        },
+        {
+          "name": "Ted",
+          "gender": "male"
+        },
+        {
+          "name": "Teun",
+          "gender": "male"
+        },
+        {
+          "name": "Timo",
+          "gender": "male"
+        },
+        {
+          "name": "Tom",
+          "gender": "male"
+        },
+        {
+          "name": "Toon",
+          "gender": "male"
+        },
+        {
+          "name": "Vic",
+          "gender": "male"
+        },
+        {
+          "name": "Abe",
+          "gender": "male"
+        },
+        {
+          "name": "Alex",
+          "gender": "male"
+        },
+        {
+          "name": "Bart",
+          "gender": "male"
+        },
+        {
+          "name": "Ben",
+          "gender": "male"
+        },
+        {
+          "name": "Bob",
+          "gender": "male"
+        },
+        {
+          "name": "Cas",
+          "gender": "male"
+        },
+        {
+          "name": "Daan",
+          "gender": "male"
+        },
+        {
+          "name": "Job",
+          "gender": "male"
+        },
+        {
+          "name": "Kai",
+          "gender": "male"
+        },
+        {
+          "name": "Lex",
+          "gender": "male"
+        },
+        {
+          "name": "Lyam",
+          "gender": "male"
+        },
+        {
+          "name": "Niels",
+          "gender": "male"
+        },
+        {
+          "name": "Olaf",
+          "gender": "male"
+        },
+        {
+          "name": "Owen",
+          "gender": "male"
+        },
+        {
+          "name": "Raf",
+          "gender": "male"
+        },
+        {
+          "name": "Reza",
+          "gender": "male"
+        },
+        {
+          "name": "Ruben",
+          "gender": "male"
+        },
+        {
+          "name": "Silas",
+          "gender": "male"
+        },
+        {
+          "name": "Skip",
+          "gender": "male"
+        },
+        {
+          "name": "Ties",
+          "gender": "male"
+        },
+        {
+          "name": "Gus",
+          "gender": "male"
+        },
+        {
+          "name": "Boy",
+          "gender": "male"
+        },
+        {
+          "name": "Fos",
+          "gender": "male"
+        },
+        {
+          "name": "Jenk",
+          "gender": "male"
+        },
+        {
+          "name": "Nils",
+          "gender": "male"
+        },
+        {
+          "name": "Shaun",
+          "gender": "male"
+        },
+        {
+          "name": "Zoom",
+          "gender": "male"
+        },
+        {
+          "name": "Dino",
+          "gender": "male"
+        },
+        {
+          "name": "Freek",
+          "gender": "male"
+        },
+        {
+          "name": "Dolf",
+          "gender": "male"
+        },
+        {
+          "name": "Loek",
+          "gender": "male"
+        },
+        {
+          "name": "Tobi",
+          "gender": "male"
+        },
+        {
+          "name": "Tygo",
+          "gender": "male"
+        },
+        {
+          "name": "Vito",
+          "gender": "male"
+        },
+        {
+          "name": "Nino",
+          "gender": "male"
+        },
+        {
+          "name": "Astor",
+          "gender": "neutral"
+        },
+        {
+          "name": "Balou",
+          "gender": "neutral"
+        },
+        {
+          "name": "Bully",
+          "gender": "neutral"
+        },
+        {
+          "name": "Djoek",
+          "gender": "neutral"
+        },
+        {
+          "name": "Jerry",
+          "gender": "neutral"
+        },
+        {
+          "name": "Kazan",
+          "gender": "neutral"
+        },
+        {
+          "name": "Ringo",
+          "gender": "neutral"
+        },
+        {
+          "name": "Amigo",
+          "gender": "neutral"
+        },
+        {
+          "name": "Chevy",
+          "gender": "neutral"
+        },
+        {
+          "name": "Dixie",
+          "gender": "neutral"
+        },
+        {
+          "name": "Gismo",
+          "gender": "neutral"
+        },
+        {
+          "name": "Milow",
+          "gender": "neutral"
+        },
+        {
+          "name": "Candy",
+          "gender": "neutral"
+        },
+        {
+          "name": "Chica",
+          "gender": "neutral"
+        },
+        {
+          "name": "Akira",
+          "gender": "neutral"
+        },
+        {
+          "name": "Angel",
+          "gender": "neutral"
+        },
+        {
+          "name": "Astra",
+          "gender": "neutral"
+        },
+        {
+          "name": "Baloe",
+          "gender": "neutral"
+        },
+        {
+          "name": "Balto",
+          "gender": "neutral"
+        },
+        {
+          "name": "Bijou",
+          "gender": "neutral"
+        },
+        {
+          "name": "Billy",
+          "gender": "neutral"
+        },
+        {
+          "name": "Binky",
+          "gender": "neutral"
+        },
+        {
+          "name": "Bodhi",
+          "gender": "neutral"
+        },
+        {
+          "name": "Bonny",
+          "gender": "neutral"
+        },
+        {
+          "name": "Boots",
+          "gender": "neutral"
+        },
+        {
+          "name": "Britt",
+          "gender": "neutral"
+        },
+        {
+          "name": "Budha",
+          "gender": "neutral"
+        },
+        {
+          "name": "Butch",
+          "gender": "neutral"
+        },
+        {
+          "name": "Darco",
+          "gender": "neutral"
+        },
+        {
+          "name": "Devil",
+          "gender": "neutral"
+        },
+        {
+          "name": "Dizzy",
+          "gender": "neutral"
+        },
+        {
+          "name": "Evita",
+          "gender": "neutral"
+        },
+        {
+          "name": "Falco",
+          "gender": "neutral"
+        },
+        {
+          "name": "Gipsy",
+          "gender": "neutral"
+        },
+        {
+          "name": "Gizmo",
+          "gender": "neutral"
+        },
+        {
+          "name": "Gucci",
+          "gender": "neutral"
+        },
+        {
+          "name": "Jacky",
+          "gender": "neutral"
+        },
+        {
+          "name": "James",
+          "gender": "neutral"
+        },
+        {
+          "name": "Jamie",
+          "gender": "neutral"
+        },
+        {
+          "name": "Jessy",
+          "gender": "neutral"
+        },
+        {
+          "name": "Jimmy",
+          "gender": "neutral"
+        },
+        {
+          "name": "Jolly",
+          "gender": "neutral"
+        },
+        {
+          "name": "Kayla",
+          "gender": "neutral"
+        },
+        {
+          "name": "Kenji",
+          "gender": "neutral"
+        },
+        {
+          "name": "Laika",
+          "gender": "neutral"
+        },
+        {
+          "name": "Laska",
+          "gender": "neutral"
+        },
+        {
+          "name": "Layka",
+          "gender": "neutral"
+        },
+        {
+          "name": "Loeka",
+          "gender": "neutral"
+        },
+        {
+          "name": "Macho",
+          "gender": "neutral"
+        },
+        {
+          "name": "Maylo",
+          "gender": "neutral"
+        },
+        {
+          "name": "Micky",
+          "gender": "neutral"
+        },
+        {
+          "name": "Milan",
+          "gender": "neutral"
+        },
+        {
+          "name": "Nicky",
+          "gender": "neutral"
+        },
+        {
+          "name": "Ollie",
+          "gender": "neutral"
+        },
+        {
+          "name": "Pinky",
+          "gender": "neutral"
+        },
+        {
+          "name": "Prada",
+          "gender": "neutral"
+        },
+        {
+          "name": "Radja",
+          "gender": "neutral"
+        },
+        {
+          "name": "Rambo",
+          "gender": "neutral"
+        },
+        {
+          "name": "Ricky",
+          "gender": "neutral"
+        },
+        {
+          "name": "Rover",
+          "gender": "neutral"
+        },
+        {
+          "name": "Sammy",
+          "gender": "neutral"
+        },
+        {
+          "name": "Sjors",
+          "gender": "neutral"
+        },
+        {
+          "name": "Tayco",
+          "gender": "neutral"
+        },
+        {
+          "name": "Terry",
+          "gender": "neutral"
+        },
+        {
+          "name": "Timmy",
+          "gender": "neutral"
+        },
+        {
+          "name": "Tommy",
+          "gender": "neutral"
+        },
+        {
+          "name": "Turbo",
+          "gender": "neutral"
+        },
+        {
+          "name": "Tyson",
+          "gender": "neutral"
+        },
+        {
+          "name": "Wodan",
+          "gender": "neutral"
+        },
+        {
+          "name": "Woody",
+          "gender": "neutral"
+        },
+        {
+          "name": "Yoshi",
+          "gender": "neutral"
+        },
+        {
+          "name": "Ziggy",
+          "gender": "neutral"
+        },
+        {
+          "name": "Zorro",
+          "gender": "neutral"
+        },
+        {
+          "name": "Indy",
+          "gender": "neutral"
+        },
+        {
+          "name": "Noa",
+          "gender": "neutral"
+        },
+        {
+          "name": "Dries",
+          "gender": "neutral"
+        },
+        {
+          "name": "Jazz",
+          "gender": "neutral"
+        },
+        {
+          "name": "Luca",
+          "gender": "neutral"
+        },
+        {
+          "name": "Onyx",
+          "gender": "neutral"
+        },
+        {
+          "name": "Quinn",
+          "gender": "neutral"
+        },
+        {
+          "name": "Zipp",
+          "gender": "neutral"
+        },
+        {
+          "name": "Mo",
+          "gender": "neutral"
+        },
+        {
+          "name": "Snor",
+          "gender": "neutral"
+        },
+        {
+          "name": "Aap",
+          "gender": "neutral"
+        },
+        {
+          "name": "Zoef",
+          "gender": "neutral"
+        },
+        {
+          "name": "Iggy",
+          "gender": "neutral"
+        },
+        {
+          "name": "Muk",
+          "gender": "neutral"
+        },
+        {
+          "name": "Mup",
+          "gender": "neutral"
+        },
+        {
+          "name": "Riff",
+          "gender": "neutral"
+        },
+        {
+          "name": "Riva",
+          "gender": "neutral"
+        },
+        {
+          "name": "Trix",
+          "gender": "neutral"
+        },
+        {
+          "name": "Mila",
+          "gender": "female"
+        },
+        {
+          "name": "Nola",
+          "gender": "female"
+        },
+        {
+          "name": "Sofi",
+          "gender": "female"
+        },
+        {
+          "name": "Perla",
+          "gender": "female"
+        },
+        {
+          "name": "Rox",
+          "gender": "female"
+        },
+        {
+          "name": "Diva",
+          "gender": "female"
+        },
+        {
+          "name": "Cleo",
+          "gender": "female"
+        },
+        {
+          "name": "Vita",
+          "gender": "female"
+        },
+        {
+          "name": "Beau",
+          "gender": "male"
+        },
+        {
+          "name": "Xavi",
+          "gender": "male"
+        },
+        {
+          "name": "Hummer",
+          "gender": "neutral"
+        },
+        {
+          "name": "Chester",
+          "gender": "neutral"
+        },
+        {
+          "name": "Dazzle",
+          "gender": "neutral"
+        },
+        {
+          "name": "Denzel",
+          "gender": "neutral"
+        },
+        {
+          "name": "Banjer",
+          "gender": "neutral"
+        },
+        {
+          "name": "Queeny",
+          "gender": "female"
+        }
+      ]
+    },
+    {
+      "slug": "pets_nl_classic",
+      "title": "Klassiek",
+      "description": "Tijdloze namen die vertrouwd en warm aanvoelen",
+      "language": "nl",
+      "style": "classic",
+      "names": [
+        {
+          "name": "Charlie",
+          "gender": "neutral"
+        },
+        {
+          "name": "Sam",
+          "gender": "male"
+        },
+        {
+          "name": "Toby",
+          "gender": "male"
+        },
+        {
+          "name": "Jack",
+          "gender": "male"
+        },
+        {
+          "name": "Milo",
+          "gender": "male"
+        },
+        {
+          "name": "Sophie",
+          "gender": "female"
+        },
+        {
+          "name": "Bonnie",
+          "gender": "neutral"
+        },
+        {
+          "name": "Jackie",
+          "gender": "neutral"
+        },
+        {
+          "name": "Jessie",
+          "gender": "neutral"
+        },
+        {
+          "name": "Maggie",
+          "gender": "neutral"
+        },
+        {
+          "name": "Robbie",
+          "gender": "neutral"
+        },
+        {
+          "name": "Bobby",
+          "gender": "neutral"
+        },
+        {
+          "name": "Bobbie",
+          "gender": "neutral"
+        },
+        {
+          "name": "Billie",
+          "gender": "neutral"
+        },
+        {
+          "name": "Bowie",
+          "gender": "neutral"
+        },
+        {
+          "name": "Elvis",
+          "gender": "neutral"
+        },
+        {
+          "name": "Frodo",
+          "gender": "neutral"
+        },
+        {
+          "name": "Pluto",
+          "gender": "neutral"
+        },
+        {
+          "name": "Blacky",
+          "gender": "neutral"
+        },
+        {
+          "name": "Buddy",
+          "gender": "neutral"
+        },
+        {
+          "name": "Lucky",
+          "gender": "neutral"
+        },
+        {
+          "name": "Simba",
+          "gender": "neutral"
+        },
+        {
+          "name": "Lady",
+          "gender": "female"
+        },
+        {
+          "name": "Kira",
+          "gender": "female"
+        },
+        {
+          "name": "Sem",
+          "gender": "male"
+        },
+        {
+          "name": "Jaap",
+          "gender": "male"
+        },
+        {
+          "name": "Wim",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "slug": "pets_nl_funny",
+      "title": "Speels & Grappig",
+      "description": "Namen met humor en een knipoog",
+      "language": "nl",
+      "style": "funny",
+      "names": [
+        {
+          "name": "Boef",
+          "gender": "male"
+        },
+        {
+          "name": "Knor",
+          "gender": "neutral"
+        },
+        {
+          "name": "Kroket",
+          "gender": "neutral"
+        },
+        {
+          "name": "Droppie",
+          "gender": "neutral"
+        },
+        {
+          "name": "Wafel",
+          "gender": "neutral"
+        },
+        {
+          "name": "Muppet",
+          "gender": "neutral"
+        },
+        {
+          "name": "Spetter",
+          "gender": "neutral"
+        },
+        {
+          "name": "Snickers",
+          "gender": "neutral"
+        },
+        {
+          "name": "Poffertje",
+          "gender": "neutral"
+        },
+        {
+          "name": "Pannenkoek",
+          "gender": "neutral"
+        },
+        {
+          "name": "Bami",
+          "gender": "neutral"
+        },
+        {
+          "name": "Nasi",
+          "gender": "neutral"
+        },
+        {
+          "name": "Stamppot",
+          "gender": "neutral"
+        },
+        {
+          "name": "Oliebol",
+          "gender": "neutral"
+        },
+        {
+          "name": "Kabouter",
+          "gender": "male"
+        },
+        {
+          "name": "Wiebel",
+          "gender": "neutral"
+        },
+        {
+          "name": "Wobbel",
+          "gender": "neutral"
+        },
+        {
+          "name": "Gekkie",
+          "gender": "neutral"
+        },
+        {
+          "name": "Spruit",
+          "gender": "neutral"
+        },
+        {
+          "name": "Frekkel",
+          "gender": "neutral"
+        },
+        {
+          "name": "Kwispel",
+          "gender": "neutral"
+        },
+        {
+          "name": "Brokje",
+          "gender": "neutral"
+        },
+        {
+          "name": "Flip",
+          "gender": "male"
+        },
+        {
+          "name": "Boris",
+          "gender": "male"
+        },
+        {
+          "name": "Doedel",
+          "gender": "neutral"
+        },
+        {
+          "name": "Doerak",
+          "gender": "neutral"
+        },
+        {
+          "name": "Cookie",
+          "gender": "neutral"
+        },
+        {
+          "name": "Goofy",
+          "gender": "neutral"
+        },
+        {
+          "name": "Happy",
+          "gender": "neutral"
+        },
+        {
+          "name": "Dribbel",
+          "gender": "neutral"
+        },
+        {
+          "name": "Twister",
+          "gender": "neutral"
+        },
+        {
+          "name": "Skippy",
+          "gender": "neutral"
+        },
+        {
+          "name": "Speedy",
+          "gender": "neutral"
+        },
+        {
+          "name": "Sparky",
+          "gender": "neutral"
+        },
+        {
+          "name": "Spikey",
+          "gender": "neutral"
+        },
+        {
+          "name": "Stitch",
+          "gender": "neutral"
+        },
+        {
+          "name": "Dobber",
+          "gender": "neutral"
+        },
+        {
+          "name": "Droopy",
+          "gender": "neutral"
+        },
+        {
+          "name": "Chucky",
+          "gender": "neutral"
+        },
+        {
+          "name": "Chicky",
+          "gender": "neutral"
+        },
+        {
+          "name": "Deejay",
+          "gender": "neutral"
+        },
+        {
+          "name": "Danger",
+          "gender": "neutral"
+        },
+        {
+          "name": "Diablo",
+          "gender": "neutral"
+        },
+        {
+          "name": "Mickey",
+          "gender": "neutral"
+        },
+        {
+          "name": "Bandit",
+          "gender": "neutral"
+        },
+        {
+          "name": "Boomer",
+          "gender": "neutral"
+        },
+        {
+          "name": "Django",
+          "gender": "neutral"
+        },
+        {
+          "name": "Mazzel",
+          "gender": "neutral"
+        },
+        {
+          "name": "Bikkel",
+          "gender": "neutral"
+        },
+        {
+          "name": "Duvel",
+          "gender": "neutral"
+        },
+        {
+          "name": "Diezel",
+          "gender": "neutral"
+        },
+        {
+          "name": "Rakker",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "slug": "pets_nl_vintage",
+      "title": "Oud-Hollands",
+      "description": "Nostalgische, ouderwetse namen met karakter",
+      "language": "nl",
+      "style": "vintage",
+      "names": [
+        {
+          "name": "Berend",
+          "gender": "male"
+        },
+        {
+          "name": "Dirk",
+          "gender": "male"
+        },
+        {
+          "name": "Evert",
+          "gender": "male"
+        },
+        {
+          "name": "Gerrit",
+          "gender": "male"
+        },
+        {
+          "name": "Willem",
+          "gender": "male"
+        },
+        {
+          "name": "Truus",
+          "gender": "female"
+        },
+        {
+          "name": "Grietje",
+          "gender": "female"
+        },
+        {
+          "name": "Aaltje",
+          "gender": "female"
+        },
+        {
+          "name": "Neeltje",
+          "gender": "female"
+        },
+        {
+          "name": "Sientje",
+          "gender": "female"
+        },
+        {
+          "name": "Klaas",
+          "gender": "male"
+        },
+        {
+          "name": "Barend",
+          "gender": "male"
+        },
+        {
+          "name": "Hannes",
+          "gender": "male"
+        },
+        {
+          "name": "Hendrik",
+          "gender": "male"
+        },
+        {
+          "name": "Wessel",
+          "gender": "male"
+        },
+        {
+          "name": "Mabel",
+          "gender": "female"
+        },
+        {
+          "name": "Hilde",
+          "gender": "female"
+        },
+        {
+          "name": "Geertje",
+          "gender": "female"
+        },
+        {
+          "name": "Trijntje",
+          "gender": "female"
+        },
+        {
+          "name": "Leentje",
+          "gender": "female"
+        },
+        {
+          "name": "Ot",
+          "gender": "male"
+        },
+        {
+          "name": "Tinus",
+          "gender": "male"
+        },
+        {
+          "name": "Janus",
+          "gender": "male"
+        },
+        {
+          "name": "Zeger",
+          "gender": "male"
+        },
+        {
+          "name": "Wolter",
+          "gender": "male"
+        },
+        {
+          "name": "Kobus",
+          "gender": "male"
+        },
+        {
+          "name": "Piet",
+          "gender": "male"
+        },
+        {
+          "name": "Cor",
+          "gender": "male"
+        },
+        {
+          "name": "Dorus",
+          "gender": "male"
+        },
+        {
+          "name": "Miep",
+          "gender": "female"
+        },
+        {
+          "name": "Henk",
+          "gender": "male"
+        },
+        {
+          "name": "Kees",
+          "gender": "male"
+        },
+        {
+          "name": "Jan",
+          "gender": "male"
+        },
+        {
+          "name": "Fons",
+          "gender": "male"
+        },
+        {
+          "name": "Mien",
+          "gender": "female"
+        },
+        {
+          "name": "Sjaan",
+          "gender": "female"
+        },
+        {
+          "name": "Aagje",
+          "gender": "female"
+        },
+        {
+          "name": "Betje",
+          "gender": "female"
+        },
+        {
+          "name": "Dirkje",
+          "gender": "female"
+        },
+        {
+          "name": "Mies",
+          "gender": "female"
+        },
+        {
+          "name": "Jet",
+          "gender": "female"
+        }
+      ]
+    },
+    {
+      "slug": "pets_nl_nature",
+      "title": "Natuur & Buiten",
+      "description": "Geïnspireerd door natuur, weer en buitenleven",
+      "language": "nl",
+      "style": "nature",
+      "names": [
+        {
+          "name": "Bos",
+          "gender": "neutral"
+        },
+        {
+          "name": "Storm",
+          "gender": "neutral"
+        },
+        {
+          "name": "Maan",
+          "gender": "female"
+        },
+        {
+          "name": "Ster",
+          "gender": "female"
+        },
+        {
+          "name": "Zon",
+          "gender": "neutral"
+        },
+        {
+          "name": "Regen",
+          "gender": "neutral"
+        },
+        {
+          "name": "Sneeuw",
+          "gender": "female"
+        },
+        {
+          "name": "Wolk",
+          "gender": "neutral"
+        },
+        {
+          "name": "Hazel",
+          "gender": "female"
+        },
+        {
+          "name": "Ivy",
+          "gender": "female"
+        },
+        {
+          "name": "Bloem",
+          "gender": "female"
+        },
+        {
+          "name": "Klaver",
+          "gender": "neutral"
+        },
+        {
+          "name": "Vos",
+          "gender": "neutral"
+        },
+        {
+          "name": "Beek",
+          "gender": "neutral"
+        },
+        {
+          "name": "Berk",
+          "gender": "neutral"
+        },
+        {
+          "name": "Eik",
+          "gender": "neutral"
+        },
+        {
+          "name": "Koraal",
+          "gender": "neutral"
+        },
+        {
+          "name": "Parel",
+          "gender": "female"
+        },
+        {
+          "name": "Veer",
+          "gender": "neutral"
+        },
+        {
+          "name": "Duin",
+          "gender": "neutral"
+        },
+        {
+          "name": "Zee",
+          "gender": "neutral"
+        },
+        {
+          "name": "Heide",
+          "gender": "female"
+        },
+        {
+          "name": "Linde",
+          "gender": "female"
+        },
+        {
+          "name": "Lelie",
+          "gender": "female"
+        },
+        {
+          "name": "Sunny",
+          "gender": "neutral"
+        },
+        {
+          "name": "Muis",
+          "gender": "neutral"
+        },
+        {
+          "name": "Beer",
+          "gender": "neutral"
+        },
+        {
+          "name": "Tijger",
+          "gender": "male"
+        },
+        {
+          "name": "Bliksem",
+          "gender": "neutral"
+        },
+        {
+          "name": "Pepper",
+          "gender": "neutral"
+        },
+        {
+          "name": "Ginger",
+          "gender": "neutral"
+        },
+        {
+          "name": "Poppy",
+          "gender": "female"
+        },
+        {
+          "name": "Snowy",
+          "gender": "neutral"
+        },
+        {
+          "name": "Dusty",
+          "gender": "neutral"
+        },
+        {
+          "name": "Terra",
+          "gender": "female"
+        },
+        {
+          "name": "Nova",
+          "gender": "female"
+        },
+        {
+          "name": "Maple",
+          "gender": "neutral"
+        },
+        {
+          "name": "Willow",
+          "gender": "female"
+        },
+        {
+          "name": "Fern",
+          "gender": "female"
+        },
+        {
+          "name": "Sky",
+          "gender": "neutral"
+        },
+        {
+          "name": "Cloud",
+          "gender": "neutral"
+        },
+        {
+          "name": "Pluis",
+          "gender": "neutral"
+        }
+      ]
+    },
+    {
+      "slug": "pets_nl_petnicknames",
+      "title": "Koosnamen",
+      "description": "Liefkozende roepnamen en typische dierennamen",
+      "language": "nl",
+      "style": "petnicknames",
+      "names": [
+        {
+          "name": "Schatje",
+          "gender": "neutral"
+        },
+        {
+          "name": "Liefje",
+          "gender": "neutral"
+        },
+        {
+          "name": "Beertje",
+          "gender": "neutral"
+        },
+        {
+          "name": "Snuffel",
+          "gender": "neutral"
+        },
+        {
+          "name": "Knuffie",
+          "gender": "neutral"
+        },
+        {
+          "name": "Poepie",
+          "gender": "neutral"
+        },
+        {
+          "name": "Ukkie",
+          "gender": "neutral"
+        },
+        {
+          "name": "Boefje",
+          "gender": "neutral"
+        },
+        {
+          "name": "Snoetje",
+          "gender": "neutral"
+        },
+        {
+          "name": "Maatje",
+          "gender": "neutral"
+        },
+        {
+          "name": "Dotje",
+          "gender": "neutral"
+        },
+        {
+          "name": "Engeltje",
+          "gender": "neutral"
+        },
+        {
+          "name": "Hartje",
+          "gender": "neutral"
+        },
+        {
+          "name": "Propje",
+          "gender": "neutral"
+        },
+        {
+          "name": "Sterretje",
+          "gender": "neutral"
+        },
+        {
+          "name": "Zonnetje",
+          "gender": "neutral"
+        },
+        {
+          "name": "Bolletje",
+          "gender": "neutral"
+        },
+        {
+          "name": "Ventje",
+          "gender": "male"
+        },
+        {
+          "name": "Poezel",
+          "gender": "neutral"
+        },
+        {
+          "name": "Snuitje",
+          "gender": "neutral"
+        },
+        {
+          "name": "Kleintje",
+          "gender": "neutral"
+        },
+        {
+          "name": "Vriendje",
+          "gender": "male"
+        },
+        {
+          "name": "Lieverd",
+          "gender": "neutral"
+        },
+        {
+          "name": "Lammetje",
+          "gender": "neutral"
+        },
+        {
+          "name": "Hondje",
+          "gender": "neutral"
+        },
+        {
+          "name": "Floortje",
+          "gender": "female"
+        },
+        {
+          "name": "Saartje",
+          "gender": "female"
+        },
+        {
+          "name": "Fientje",
+          "gender": "female"
+        },
+        {
+          "name": "Prutske",
+          "gender": "neutral"
+        },
+        {
+          "name": "Roosje",
+          "gender": "female"
+        },
+        {
+          "name": "Loekie",
+          "gender": "female"
+        },
+        {
+          "name": "Binkie",
+          "gender": "neutral"
+        },
+        {
+          "name": "Bennie",
+          "gender": "neutral"
+        },
+        {
+          "name": "Guusje",
+          "gender": "neutral"
+        },
+        {
+          "name": "Harrie",
+          "gender": "neutral"
+        },
+        {
+          "name": "Pukkie",
+          "gender": "neutral"
+        },
+        {
+          "name": "Sammie",
+          "gender": "neutral"
+        },
+        {
+          "name": "Tommie",
+          "gender": "neutral"
+        },
+        {
+          "name": "Trixie",
+          "gender": "neutral"
+        },
+        {
+          "name": "Famke",
+          "gender": "female"
+        },
+        {
+          "name": "Femke",
+          "gender": "female"
+        },
+        {
+          "name": "Lotje",
+          "gender": "female"
+        },
+        {
+          "name": "Boyke",
+          "gender": "neutral"
+        },
+        {
+          "name": "Pietje",
+          "gender": "neutral"
+        },
+        {
+          "name": "Nelly",
+          "gender": "female"
+        },
+        {
+          "name": "Snuffie",
+          "gender": "neutral"
+        }
+      ]
+    },
+    {
+      "slug": "pets_en_cute",
+      "title": "Cute & Sweet",
+      "description": "Soft, lovable names with a friendly vibe",
+      "language": "en",
+      "style": "cute",
+      "names": [
+        {
+          "name": "Bella",
+          "gender": "female"
+        },
+        {
+          "name": "Buddy",
+          "gender": "male"
+        },
+        {
+          "name": "Coco",
+          "gender": "neutral"
+        },
+        {
+          "name": "Daisy",
+          "gender": "female"
+        },
+        {
+          "name": "Honey",
+          "gender": "female"
+        },
+        {
+          "name": "Luna",
+          "gender": "female"
+        },
+        {
+          "name": "Milo",
+          "gender": "male"
+        },
+        {
+          "name": "Molly",
+          "gender": "female"
+        },
+        {
+          "name": "Nala",
+          "gender": "female"
+        },
+        {
+          "name": "Poppy",
+          "gender": "female"
+        },
+        {
+          "name": "Rosie",
+          "gender": "female"
+        },
+        {
+          "name": "Teddy",
+          "gender": "male"
+        },
+        {
+          "name": "Willow",
+          "gender": "female"
+        },
+        {
+          "name": "Biscuit",
+          "gender": "neutral"
+        },
+        {
+          "name": "Peanut",
+          "gender": "neutral"
+        },
+        {
+          "name": "Pumpkin",
+          "gender": "neutral"
+        },
+        {
+          "name": "Muffin",
+          "gender": "neutral"
+        },
+        {
+          "name": "Cookie",
+          "gender": "neutral"
+        },
+        {
+          "name": "Ginger",
+          "gender": "female"
+        },
+        {
+          "name": "Pixie",
+          "gender": "female"
+        },
+        {
+          "name": "Lulu",
+          "gender": "female"
+        },
+        {
+          "name": "Dolly",
+          "gender": "female"
+        },
+        {
+          "name": "Twinkle",
+          "gender": "neutral"
+        },
+        {
+          "name": "Sprinkles",
+          "gender": "neutral"
+        },
+        {
+          "name": "Sugar",
+          "gender": "female"
+        }
+      ]
+    },
+    {
+      "slug": "pets_en_strong",
+      "title": "Short & Strong",
+      "description": "Short, punchy names with a strong sound",
+      "language": "en",
+      "style": "strong",
+      "names": [
+        {
+          "name": "Ace",
+          "gender": "male"
+        },
+        {
+          "name": "Axel",
+          "gender": "male"
+        },
+        {
+          "name": "Bear",
+          "gender": "male"
+        },
+        {
+          "name": "Blaze",
+          "gender": "male"
+        },
+        {
+          "name": "Bolt",
+          "gender": "male"
+        },
+        {
+          "name": "Cash",
+          "gender": "male"
+        },
+        {
+          "name": "Dex",
+          "gender": "male"
+        },
+        {
+          "name": "Diesel",
+          "gender": "male"
+        },
+        {
+          "name": "Duke",
+          "gender": "male"
+        },
+        {
+          "name": "Finn",
+          "gender": "male"
+        },
+        {
+          "name": "Jax",
+          "gender": "male"
+        },
+        {
+          "name": "Kai",
+          "gender": "neutral"
+        },
+        {
+          "name": "Max",
+          "gender": "male"
+        },
+        {
+          "name": "Neo",
+          "gender": "male"
+        },
+        {
+          "name": "Rex",
+          "gender": "male"
+        },
+        {
+          "name": "Rocky",
+          "gender": "male"
+        },
+        {
+          "name": "Spike",
+          "gender": "male"
+        },
+        {
+          "name": "Tank",
+          "gender": "male"
+        },
+        {
+          "name": "Thor",
+          "gender": "male"
+        },
+        {
+          "name": "Wolf",
+          "gender": "male"
+        },
+        {
+          "name": "Zane",
+          "gender": "male"
+        },
+        {
+          "name": "Bruno",
+          "gender": "male"
+        },
+        {
+          "name": "Chase",
+          "gender": "male"
+        },
+        {
+          "name": "Gunner",
+          "gender": "male"
+        },
+        {
+          "name": "Maverick",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "slug": "pets_en_classic",
+      "title": "Classic Names",
+      "description": "Timeless names that feel familiar and warm",
+      "language": "en",
+      "style": "classic",
+      "names": [
+        {
+          "name": "Charlie",
+          "gender": "male"
+        },
+        {
+          "name": "Jack",
+          "gender": "male"
+        },
+        {
+          "name": "Lucy",
+          "gender": "female"
+        },
+        {
+          "name": "Oscar",
+          "gender": "male"
+        },
+        {
+          "name": "Oliver",
+          "gender": "male"
+        },
+        {
+          "name": "Ruby",
+          "gender": "female"
+        },
+        {
+          "name": "Sam",
+          "gender": "male"
+        },
+        {
+          "name": "Sadie",
+          "gender": "female"
+        },
+        {
+          "name": "Toby",
+          "gender": "male"
+        },
+        {
+          "name": "Lily",
+          "gender": "female"
+        },
+        {
+          "name": "Henry",
+          "gender": "male"
+        },
+        {
+          "name": "Leo",
+          "gender": "male"
+        },
+        {
+          "name": "George",
+          "gender": "male"
+        },
+        {
+          "name": "Archie",
+          "gender": "male"
+        },
+        {
+          "name": "Alfie",
+          "gender": "male"
+        },
+        {
+          "name": "Millie",
+          "gender": "female"
+        },
+        {
+          "name": "Ellie",
+          "gender": "female"
+        },
+        {
+          "name": "Harry",
+          "gender": "male"
+        },
+        {
+          "name": "Emily",
+          "gender": "female"
+        },
+        {
+          "name": "Bailey",
+          "gender": "neutral"
+        },
+        {
+          "name": "Bonnie",
+          "gender": "female"
+        },
+        {
+          "name": "Chester",
+          "gender": "male"
+        },
+        {
+          "name": "Jasper",
+          "gender": "male"
+        },
+        {
+          "name": "Murphy",
+          "gender": "male"
+        },
+        {
+          "name": "Sophie",
+          "gender": "female"
+        }
+      ]
+    },
+    {
+      "slug": "pets_en_funny",
+      "title": "Funny & Playful",
+      "description": "Light-hearted names with humor and personality",
+      "language": "en",
+      "style": "funny",
+      "names": [
+        {
+          "name": "Banjo",
+          "gender": "neutral"
+        },
+        {
+          "name": "Bean",
+          "gender": "neutral"
+        },
+        {
+          "name": "Bingo",
+          "gender": "neutral"
+        },
+        {
+          "name": "Chewie",
+          "gender": "neutral"
+        },
+        {
+          "name": "Chonk",
+          "gender": "neutral"
+        },
+        {
+          "name": "Doodle",
+          "gender": "neutral"
+        },
+        {
+          "name": "Goose",
+          "gender": "neutral"
+        },
+        {
+          "name": "Gizmo",
+          "gender": "neutral"
+        },
+        {
+          "name": "Muppet",
+          "gender": "neutral"
+        },
+        {
+          "name": "Noodle",
+          "gender": "neutral"
+        },
+        {
+          "name": "Pickles",
+          "gender": "neutral"
+        },
+        {
+          "name": "Pudding",
+          "gender": "neutral"
+        },
+        {
+          "name": "Sausage",
+          "gender": "neutral"
+        },
+        {
+          "name": "Snoopy",
+          "gender": "male"
+        },
+        {
+          "name": "Taco",
+          "gender": "neutral"
+        },
+        {
+          "name": "Waffles",
+          "gender": "neutral"
+        },
+        {
+          "name": "Zippy",
+          "gender": "neutral"
+        },
+        {
+          "name": "Bacon",
+          "gender": "neutral"
+        },
+        {
+          "name": "Nugget",
+          "gender": "neutral"
+        },
+        {
+          "name": "Potato",
+          "gender": "neutral"
+        },
+        {
+          "name": "Burrito",
+          "gender": "neutral"
+        },
+        {
+          "name": "Meatball",
+          "gender": "neutral"
+        },
+        {
+          "name": "Oreo",
+          "gender": "neutral"
+        },
+        {
+          "name": "Dobby",
+          "gender": "male"
+        },
+        {
+          "name": "Yoda",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "slug": "pets_en_vintage",
+      "title": "Vintage & Old-School",
+      "description": "Old-fashioned names with a nostalgic vibe",
+      "language": "en",
+      "style": "vintage",
+      "names": [
+        {
+          "name": "Alfred",
+          "gender": "male"
+        },
+        {
+          "name": "Arthur",
+          "gender": "male"
+        },
+        {
+          "name": "Beatrice",
+          "gender": "female"
+        },
+        {
+          "name": "Cecil",
+          "gender": "male"
+        },
+        {
+          "name": "Clara",
+          "gender": "female"
+        },
+        {
+          "name": "Edgar",
+          "gender": "male"
+        },
+        {
+          "name": "Ethel",
+          "gender": "female"
+        },
+        {
+          "name": "Florence",
+          "gender": "female"
+        },
+        {
+          "name": "Frank",
+          "gender": "male"
+        },
+        {
+          "name": "Harold",
+          "gender": "male"
+        },
+        {
+          "name": "Hattie",
+          "gender": "female"
+        },
+        {
+          "name": "Ivy",
+          "gender": "female"
+        },
+        {
+          "name": "Mabel",
+          "gender": "female"
+        },
+        {
+          "name": "Norman",
+          "gender": "male"
+        },
+        {
+          "name": "Otis",
+          "gender": "male"
+        },
+        {
+          "name": "Pearl",
+          "gender": "female"
+        },
+        {
+          "name": "Stanley",
+          "gender": "male"
+        },
+        {
+          "name": "Walter",
+          "gender": "male"
+        },
+        {
+          "name": "Winston",
+          "gender": "male"
+        },
+        {
+          "name": "Agnes",
+          "gender": "female"
+        },
+        {
+          "name": "Albert",
+          "gender": "male"
+        },
+        {
+          "name": "Dorothy",
+          "gender": "female"
+        },
+        {
+          "name": "Ernest",
+          "gender": "male"
+        },
+        {
+          "name": "Gertrude",
+          "gender": "female"
+        },
+        {
+          "name": "Theodore",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "slug": "pets_en_nature",
+      "title": "Nature Inspired",
+      "description": "Names inspired by nature and the outdoors",
+      "language": "en",
+      "style": "nature",
+      "names": [
+        {
+          "name": "Ash",
+          "gender": "neutral"
+        },
+        {
+          "name": "Breeze",
+          "gender": "female"
+        },
+        {
+          "name": "Cedar",
+          "gender": "neutral"
+        },
+        {
+          "name": "Clover",
+          "gender": "neutral"
+        },
+        {
+          "name": "Ember",
+          "gender": "female"
+        },
+        {
+          "name": "Fern",
+          "gender": "female"
+        },
+        {
+          "name": "Forest",
+          "gender": "neutral"
+        },
+        {
+          "name": "Hazel",
+          "gender": "female"
+        },
+        {
+          "name": "Juniper",
+          "gender": "female"
+        },
+        {
+          "name": "Maple",
+          "gender": "neutral"
+        },
+        {
+          "name": "Mist",
+          "gender": "neutral"
+        },
+        {
+          "name": "Moon",
+          "gender": "neutral"
+        },
+        {
+          "name": "Oakley",
+          "gender": "neutral"
+        },
+        {
+          "name": "River",
+          "gender": "neutral"
+        },
+        {
+          "name": "Sky",
+          "gender": "neutral"
+        },
+        {
+          "name": "Storm",
+          "gender": "neutral"
+        },
+        {
+          "name": "Sunny",
+          "gender": "neutral"
+        },
+        {
+          "name": "Aurora",
+          "gender": "female"
+        },
+        {
+          "name": "Brook",
+          "gender": "neutral"
+        },
+        {
+          "name": "Dawn",
+          "gender": "female"
+        },
+        {
+          "name": "Meadow",
+          "gender": "female"
+        },
+        {
+          "name": "Rain",
+          "gender": "neutral"
+        },
+        {
+          "name": "Star",
+          "gender": "neutral"
+        }
+      ]
+    },
+    {
+      "slug": "pets_en_petnicknames",
+      "title": "Pet Nicknames",
+      "description": "Affectionate nicknames and classic pet call-names",
+      "language": "en",
+      "style": "petnicknames",
+      "names": [
+        {
+          "name": "Baby",
+          "gender": "neutral"
+        },
+        {
+          "name": "Boo",
+          "gender": "neutral"
+        },
+        {
+          "name": "Bubba",
+          "gender": "male"
+        },
+        {
+          "name": "Cuddles",
+          "gender": "neutral"
+        },
+        {
+          "name": "Cutie",
+          "gender": "neutral"
+        },
+        {
+          "name": "Furball",
+          "gender": "neutral"
+        },
+        {
+          "name": "Lovey",
+          "gender": "neutral"
+        },
+        {
+          "name": "Munchkin",
+          "gender": "neutral"
+        },
+        {
+          "name": "Pookie",
+          "gender": "neutral"
+        },
+        {
+          "name": "Snuggles",
+          "gender": "neutral"
+        },
+        {
+          "name": "Sweetie",
+          "gender": "neutral"
+        },
+        {
+          "name": "Tiny",
+          "gender": "neutral"
+        },
+        {
+          "name": "Angel",
+          "gender": "neutral"
+        },
+        {
+          "name": "Fluff",
+          "gender": "neutral"
+        },
+        {
+          "name": "Peaches",
+          "gender": "female"
+        },
+        {
+          "name": "Bunny",
+          "gender": "neutral"
+        },
+        {
+          "name": "Champ",
+          "gender": "male"
+        },
+        {
+          "name": "Fuzzy",
+          "gender": "neutral"
+        },
+        {
+          "name": "Junior",
+          "gender": "male"
+        },
+        {
+          "name": "Pup",
+          "gender": "neutral"
+        },
+        {
+          "name": "Rascal",
+          "gender": "neutral"
+        },
+        {
+          "name": "Whiskers",
+          "gender": "neutral"
+        }
+      ]
+    },
+    {
+      "slug": "pets_de_cute",
+      "title": "Süß & Niedlich",
+      "description": "Weiche, liebe Namen für Haustiere",
+      "language": "de",
+      "style": "cute",
+      "names": [
+        {
+          "name": "Mia",
+          "gender": "female"
+        },
+        {
+          "name": "Luna",
+          "gender": "female"
+        },
+        {
+          "name": "Bella",
+          "gender": "female"
+        },
+        {
+          "name": "Lilly",
+          "gender": "female"
+        },
+        {
+          "name": "Nala",
+          "gender": "female"
+        },
+        {
+          "name": "Emma",
+          "gender": "female"
+        },
+        {
+          "name": "Leni",
+          "gender": "female"
+        },
+        {
+          "name": "Mila",
+          "gender": "female"
+        },
+        {
+          "name": "Frieda",
+          "gender": "female"
+        },
+        {
+          "name": "Heidi",
+          "gender": "female"
+        },
+        {
+          "name": "Balu",
+          "gender": "male"
+        },
+        {
+          "name": "Teddy",
+          "gender": "male"
+        },
+        {
+          "name": "Flecki",
+          "gender": "neutral"
+        },
+        {
+          "name": "Schnuffi",
+          "gender": "neutral"
+        },
+        {
+          "name": "Krümel",
+          "gender": "neutral"
+        },
+        {
+          "name": "Püppi",
+          "gender": "female"
+        },
+        {
+          "name": "Flocke",
+          "gender": "neutral"
+        },
+        {
+          "name": "Stupsi",
+          "gender": "neutral"
+        },
+        {
+          "name": "Mäuschen",
+          "gender": "neutral"
+        },
+        {
+          "name": "Schnecke",
+          "gender": "female"
+        },
+        {
+          "name": "Hasi",
+          "gender": "neutral"
+        },
+        {
+          "name": "Bärchen",
+          "gender": "neutral"
+        },
+        {
+          "name": "Mopsi",
+          "gender": "neutral"
+        },
+        {
+          "name": "Wuschel",
+          "gender": "neutral"
+        },
+        {
+          "name": "Zuckermaus",
+          "gender": "female"
+        }
+      ]
+    },
+    {
+      "slug": "pets_de_strong",
+      "title": "Kurz & Stark",
+      "description": "Kurze, kräftige Namen mit Power",
+      "language": "de",
+      "style": "strong",
+      "names": [
+        {
+          "name": "Max",
+          "gender": "male"
+        },
+        {
+          "name": "Rex",
+          "gender": "male"
+        },
+        {
+          "name": "Thor",
+          "gender": "male"
+        },
+        {
+          "name": "Zeus",
+          "gender": "male"
+        },
+        {
+          "name": "Bruno",
+          "gender": "male"
+        },
+        {
+          "name": "Odin",
+          "gender": "male"
+        },
+        {
+          "name": "Rocko",
+          "gender": "male"
+        },
+        {
+          "name": "Blitz",
+          "gender": "male"
+        },
+        {
+          "name": "Hasso",
+          "gender": "male"
+        },
+        {
+          "name": "Arko",
+          "gender": "male"
+        },
+        {
+          "name": "Tyson",
+          "gender": "male"
+        },
+        {
+          "name": "Rocky",
+          "gender": "male"
+        },
+        {
+          "name": "Wotan",
+          "gender": "male"
+        },
+        {
+          "name": "Falk",
+          "gender": "male"
+        },
+        {
+          "name": "Bär",
+          "gender": "male"
+        },
+        {
+          "name": "Grimm",
+          "gender": "male"
+        },
+        {
+          "name": "Kraft",
+          "gender": "male"
+        },
+        {
+          "name": "Sturm",
+          "gender": "male"
+        },
+        {
+          "name": "Wolf",
+          "gender": "male"
+        },
+        {
+          "name": "Donner",
+          "gender": "male"
+        },
+        {
+          "name": "Ajax",
+          "gender": "male"
+        },
+        {
+          "name": "Brutus",
+          "gender": "male"
+        },
+        {
+          "name": "Cäsar",
+          "gender": "male"
+        },
+        {
+          "name": "Samson",
+          "gender": "male"
+        },
+        {
+          "name": "Goliath",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "slug": "pets_de_classic",
+      "title": "Klassische Namen",
+      "description": "Zeitlose Namen, vertraut und warm",
+      "language": "de",
+      "style": "classic",
+      "names": [
+        {
+          "name": "Fritz",
+          "gender": "male"
+        },
+        {
+          "name": "Hans",
+          "gender": "male"
+        },
+        {
+          "name": "Karl",
+          "gender": "male"
+        },
+        {
+          "name": "Otto",
+          "gender": "male"
+        },
+        {
+          "name": "Paul",
+          "gender": "male"
+        },
+        {
+          "name": "Greta",
+          "gender": "female"
+        },
+        {
+          "name": "Anna",
+          "gender": "female"
+        },
+        {
+          "name": "Lisa",
+          "gender": "female"
+        },
+        {
+          "name": "Marie",
+          "gender": "female"
+        },
+        {
+          "name": "Sophie",
+          "gender": "female"
+        },
+        {
+          "name": "Felix",
+          "gender": "male"
+        },
+        {
+          "name": "Moritz",
+          "gender": "male"
+        },
+        {
+          "name": "Anton",
+          "gender": "male"
+        },
+        {
+          "name": "Emil",
+          "gender": "male"
+        },
+        {
+          "name": "Franz",
+          "gender": "male"
+        },
+        {
+          "name": "Klara",
+          "gender": "female"
+        },
+        {
+          "name": "Rosa",
+          "gender": "female"
+        },
+        {
+          "name": "Hanna",
+          "gender": "female"
+        },
+        {
+          "name": "Lena",
+          "gender": "female"
+        },
+        {
+          "name": "Nina",
+          "gender": "female"
+        },
+        {
+          "name": "Ludwig",
+          "gender": "male"
+        },
+        {
+          "name": "Heinrich",
+          "gender": "male"
+        },
+        {
+          "name": "Wilhelm",
+          "gender": "male"
+        },
+        {
+          "name": "Friedrich",
+          "gender": "male"
+        },
+        {
+          "name": "Albert",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "slug": "pets_de_funny",
+      "title": "Witzig & Verspielt",
+      "description": "Namen mit Humor und Charakter",
+      "language": "de",
+      "style": "funny",
+      "names": [
+        {
+          "name": "Schnitzel",
+          "gender": "neutral"
+        },
+        {
+          "name": "Brezel",
+          "gender": "neutral"
+        },
+        {
+          "name": "Strudel",
+          "gender": "neutral"
+        },
+        {
+          "name": "Wurst",
+          "gender": "neutral"
+        },
+        {
+          "name": "Knödel",
+          "gender": "neutral"
+        },
+        {
+          "name": "Pummel",
+          "gender": "neutral"
+        },
+        {
+          "name": "Quatsch",
+          "gender": "neutral"
+        },
+        {
+          "name": "Flummi",
+          "gender": "neutral"
+        },
+        {
+          "name": "Quiesel",
+          "gender": "neutral"
+        },
+        {
+          "name": "Schmusi",
+          "gender": "neutral"
+        },
+        {
+          "name": "Schnurzel",
+          "gender": "neutral"
+        },
+        {
+          "name": "Wusel",
+          "gender": "neutral"
+        },
+        {
+          "name": "Fips",
+          "gender": "neutral"
+        },
+        {
+          "name": "Pieps",
+          "gender": "neutral"
+        },
+        {
+          "name": "Schnaps",
+          "gender": "male"
+        },
+        {
+          "name": "Keks",
+          "gender": "neutral"
+        },
+        {
+          "name": "Kuchen",
+          "gender": "neutral"
+        },
+        {
+          "name": "Mops",
+          "gender": "male"
+        },
+        {
+          "name": "Dackel",
+          "gender": "male"
+        },
+        {
+          "name": "Waldi",
+          "gender": "male"
+        },
+        {
+          "name": "Fritzi",
+          "gender": "neutral"
+        },
+        {
+          "name": "Knopf",
+          "gender": "neutral"
+        },
+        {
+          "name": "Zipfel",
+          "gender": "neutral"
+        },
+        {
+          "name": "Zottel",
+          "gender": "neutral"
+        },
+        {
+          "name": "Racker",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "slug": "pets_de_vintage",
+      "title": "Vintage & Altmodisch",
+      "description": "Nostalgische Namen im Retro-Stil",
+      "language": "de",
+      "style": "vintage",
+      "names": [
+        {
+          "name": "Adalbert",
+          "gender": "male"
+        },
+        {
+          "name": "Balduin",
+          "gender": "male"
+        },
+        {
+          "name": "Erwin",
+          "gender": "male"
+        },
+        {
+          "name": "Gottfried",
+          "gender": "male"
+        },
+        {
+          "name": "Herbert",
+          "gender": "male"
+        },
+        {
+          "name": "Hedwig",
+          "gender": "female"
+        },
+        {
+          "name": "Hildegard",
+          "gender": "female"
+        },
+        {
+          "name": "Brunhilde",
+          "gender": "female"
+        },
+        {
+          "name": "Gerda",
+          "gender": "female"
+        },
+        {
+          "name": "Ingrid",
+          "gender": "female"
+        },
+        {
+          "name": "Siegfried",
+          "gender": "male"
+        },
+        {
+          "name": "Waldemar",
+          "gender": "male"
+        },
+        {
+          "name": "Reinhold",
+          "gender": "male"
+        },
+        {
+          "name": "Horst",
+          "gender": "male"
+        },
+        {
+          "name": "Günter",
+          "gender": "male"
+        },
+        {
+          "name": "Elfriede",
+          "gender": "female"
+        },
+        {
+          "name": "Edeltraut",
+          "gender": "female"
+        },
+        {
+          "name": "Mechthild",
+          "gender": "female"
+        },
+        {
+          "name": "Roswitha",
+          "gender": "female"
+        },
+        {
+          "name": "Waltraud",
+          "gender": "female"
+        },
+        {
+          "name": "Konrad",
+          "gender": "male"
+        },
+        {
+          "name": "Leopold",
+          "gender": "male"
+        },
+        {
+          "name": "Oskar",
+          "gender": "male"
+        },
+        {
+          "name": "Theodor",
+          "gender": "male"
+        },
+        {
+          "name": "Viktor",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "slug": "pets_de_nature",
+      "title": "Natur Inspiriert",
+      "description": "Namen aus Natur, Wetter und Draußen",
+      "language": "de",
+      "style": "nature",
+      "names": [
+        {
+          "name": "Blume",
+          "gender": "female"
+        },
+        {
+          "name": "Wolke",
+          "gender": "female"
+        },
+        {
+          "name": "Sonne",
+          "gender": "female"
+        },
+        {
+          "name": "Stern",
+          "gender": "neutral"
+        },
+        {
+          "name": "Mond",
+          "gender": "male"
+        },
+        {
+          "name": "Wiese",
+          "gender": "female"
+        },
+        {
+          "name": "Bach",
+          "gender": "neutral"
+        },
+        {
+          "name": "Wald",
+          "gender": "male"
+        },
+        {
+          "name": "Berg",
+          "gender": "male"
+        },
+        {
+          "name": "See",
+          "gender": "neutral"
+        },
+        {
+          "name": "Birke",
+          "gender": "female"
+        },
+        {
+          "name": "Eiche",
+          "gender": "female"
+        },
+        {
+          "name": "Linde",
+          "gender": "female"
+        },
+        {
+          "name": "Tanne",
+          "gender": "female"
+        },
+        {
+          "name": "Fichte",
+          "gender": "female"
+        },
+        {
+          "name": "Nebel",
+          "gender": "neutral"
+        },
+        {
+          "name": "Regen",
+          "gender": "neutral"
+        },
+        {
+          "name": "Schnee",
+          "gender": "neutral"
+        },
+        {
+          "name": "Wind",
+          "gender": "neutral"
+        },
+        {
+          "name": "Tau",
+          "gender": "neutral"
+        },
+        {
+          "name": "Perle",
+          "gender": "female"
+        },
+        {
+          "name": "Koralle",
+          "gender": "female"
+        },
+        {
+          "name": "Muschel",
+          "gender": "female"
+        },
+        {
+          "name": "Feder",
+          "gender": "female"
+        },
+        {
+          "name": "Blatt",
+          "gender": "neutral"
+        }
+      ]
+    },
+    {
+      "slug": "pets_de_petnicknames",
+      "title": "Tier-Kosenamen",
+      "description": "Kosenamen und typische Rufnamen",
+      "language": "de",
+      "style": "petnicknames",
+      "names": [
+        {
+          "name": "Schatz",
+          "gender": "neutral"
+        },
+        {
+          "name": "Liebling",
+          "gender": "neutral"
+        },
+        {
+          "name": "Süße",
+          "gender": "female"
+        },
+        {
+          "name": "Mausi",
+          "gender": "female"
+        },
+        {
+          "name": "Schnucki",
+          "gender": "neutral"
+        },
+        {
+          "name": "Spatz",
+          "gender": "neutral"
+        },
+        {
+          "name": "Engel",
+          "gender": "neutral"
+        },
+        {
+          "name": "Bärchi",
+          "gender": "neutral"
+        },
+        {
+          "name": "Schnuffel",
+          "gender": "neutral"
+        },
+        {
+          "name": "Knuddel",
+          "gender": "neutral"
+        },
+        {
+          "name": "Kuschel",
+          "gender": "neutral"
+        },
+        {
+          "name": "Strolch",
+          "gender": "male"
+        },
+        {
+          "name": "Frechdachs",
+          "gender": "male"
+        },
+        {
+          "name": "Kleiner",
+          "gender": "male"
+        },
+        {
+          "name": "Kleine",
+          "gender": "female"
+        },
+        {
+          "name": "Schneckchen",
+          "gender": "neutral"
+        },
+        {
+          "name": "Spätzchen",
+          "gender": "neutral"
+        },
+        {
+          "name": "Hündchen",
+          "gender": "neutral"
+        },
+        {
+          "name": "Kätzchen",
+          "gender": "neutral"
+        },
+        {
+          "name": "Häschen",
+          "gender": "neutral"
+        },
+        {
+          "name": "Vögelchen",
+          "gender": "neutral"
+        },
+        {
+          "name": "Schäfchen",
+          "gender": "neutral"
+        }
+      ]
+    },
+    {
+      "slug": "pets_fr_cute",
+      "title": "Mignon & Doux",
+      "description": "Des noms tendres et adorables",
+      "language": "fr",
+      "style": "cute",
+      "names": [
+        {
+          "name": "Mimi",
+          "gender": "female"
+        },
+        {
+          "name": "Loulou",
+          "gender": "neutral"
+        },
+        {
+          "name": "Caramel",
+          "gender": "neutral"
+        },
+        {
+          "name": "Noisette",
+          "gender": "female"
+        },
+        {
+          "name": "Praline",
+          "gender": "female"
+        },
+        {
+          "name": "Biscotte",
+          "gender": "female"
+        },
+        {
+          "name": "Cannelle",
+          "gender": "female"
+        },
+        {
+          "name": "Vanille",
+          "gender": "female"
+        },
+        {
+          "name": "Perle",
+          "gender": "female"
+        },
+        {
+          "name": "Bijou",
+          "gender": "neutral"
+        },
+        {
+          "name": "Pompon",
+          "gender": "neutral"
+        },
+        {
+          "name": "Câline",
+          "gender": "female"
+        },
+        {
+          "name": "Choupette",
+          "gender": "female"
+        },
+        {
+          "name": "Minette",
+          "gender": "female"
+        },
+        {
+          "name": "Papouille",
+          "gender": "neutral"
+        },
+        {
+          "name": "Poupette",
+          "gender": "female"
+        },
+        {
+          "name": "Filou",
+          "gender": "male"
+        },
+        {
+          "name": "Choupi",
+          "gender": "neutral"
+        },
+        {
+          "name": "Doudou",
+          "gender": "neutral"
+        },
+        {
+          "name": "Nounours",
+          "gender": "male"
+        },
+        {
+          "name": "Chipie",
+          "gender": "female"
+        },
+        {
+          "name": "Coquine",
+          "gender": "female"
+        },
+        {
+          "name": "Fripon",
+          "gender": "male"
+        },
+        {
+          "name": "Fripouille",
+          "gender": "neutral"
+        },
+        {
+          "name": "Trésor",
+          "gender": "neutral"
+        }
+      ]
+    },
+    {
+      "slug": "pets_fr_strong",
+      "title": "Court & Fort",
+      "description": "Des noms courts avec du caractère",
+      "language": "fr",
+      "style": "strong",
+      "names": [
+        {
+          "name": "Titan",
+          "gender": "male"
+        },
+        {
+          "name": "Rex",
+          "gender": "male"
+        },
+        {
+          "name": "Thor",
+          "gender": "male"
+        },
+        {
+          "name": "Zeus",
+          "gender": "male"
+        },
+        {
+          "name": "Max",
+          "gender": "male"
+        },
+        {
+          "name": "César",
+          "gender": "male"
+        },
+        {
+          "name": "Brutus",
+          "gender": "male"
+        },
+        {
+          "name": "Hercule",
+          "gender": "male"
+        },
+        {
+          "name": "Rocky",
+          "gender": "male"
+        },
+        {
+          "name": "Rambo",
+          "gender": "male"
+        },
+        {
+          "name": "Boss",
+          "gender": "male"
+        },
+        {
+          "name": "Chief",
+          "gender": "male"
+        },
+        {
+          "name": "King",
+          "gender": "male"
+        },
+        {
+          "name": "Prince",
+          "gender": "male"
+        },
+        {
+          "name": "Duke",
+          "gender": "male"
+        },
+        {
+          "name": "Storm",
+          "gender": "male"
+        },
+        {
+          "name": "Flash",
+          "gender": "male"
+        },
+        {
+          "name": "Foudre",
+          "gender": "male"
+        },
+        {
+          "name": "Tonnerre",
+          "gender": "male"
+        },
+        {
+          "name": "Ouragan",
+          "gender": "male"
+        },
+        {
+          "name": "Baron",
+          "gender": "male"
+        },
+        {
+          "name": "Diesel",
+          "gender": "male"
+        },
+        {
+          "name": "Rocket",
+          "gender": "male"
+        },
+        {
+          "name": "Turbo",
+          "gender": "male"
+        },
+        {
+          "name": "Viper",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "slug": "pets_fr_classic",
+      "title": "Noms Classiques",
+      "description": "Des noms intemporels et chaleureux",
+      "language": "fr",
+      "style": "classic",
+      "names": [
+        {
+          "name": "Félix",
+          "gender": "male"
+        },
+        {
+          "name": "Oscar",
+          "gender": "male"
+        },
+        {
+          "name": "Léo",
+          "gender": "male"
+        },
+        {
+          "name": "Charlie",
+          "gender": "male"
+        },
+        {
+          "name": "Minou",
+          "gender": "male"
+        },
+        {
+          "name": "Mistigri",
+          "gender": "male"
+        },
+        {
+          "name": "Gribouille",
+          "gender": "neutral"
+        },
+        {
+          "name": "Médor",
+          "gender": "male"
+        },
+        {
+          "name": "Sultan",
+          "gender": "male"
+        },
+        {
+          "name": "Théo",
+          "gender": "male"
+        },
+        {
+          "name": "Hugo",
+          "gender": "male"
+        },
+        {
+          "name": "Jules",
+          "gender": "male"
+        },
+        {
+          "name": "Louis",
+          "gender": "male"
+        },
+        {
+          "name": "Arthur",
+          "gender": "male"
+        },
+        {
+          "name": "Maya",
+          "gender": "female"
+        },
+        {
+          "name": "Chloé",
+          "gender": "female"
+        },
+        {
+          "name": "Emma",
+          "gender": "female"
+        },
+        {
+          "name": "Léa",
+          "gender": "female"
+        },
+        {
+          "name": "Zoé",
+          "gender": "female"
+        },
+        {
+          "name": "Gaston",
+          "gender": "male"
+        },
+        {
+          "name": "Marcel",
+          "gender": "male"
+        },
+        {
+          "name": "Pierre",
+          "gender": "male"
+        },
+        {
+          "name": "Jacques",
+          "gender": "male"
+        },
+        {
+          "name": "Henri",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "slug": "pets_fr_funny",
+      "title": "Drôle & Joueur",
+      "description": "Des noms amusants et pleins de personnalité",
+      "language": "fr",
+      "style": "funny",
+      "names": [
+        {
+          "name": "Croissant",
+          "gender": "neutral"
+        },
+        {
+          "name": "Baguette",
+          "gender": "female"
+        },
+        {
+          "name": "Macaron",
+          "gender": "neutral"
+        },
+        {
+          "name": "Éclair",
+          "gender": "neutral"
+        },
+        {
+          "name": "Crêpe",
+          "gender": "neutral"
+        },
+        {
+          "name": "Tartiflette",
+          "gender": "female"
+        },
+        {
+          "name": "Camembert",
+          "gender": "male"
+        },
+        {
+          "name": "Roquefort",
+          "gender": "male"
+        },
+        {
+          "name": "Brie",
+          "gender": "neutral"
+        },
+        {
+          "name": "Cheddar",
+          "gender": "neutral"
+        },
+        {
+          "name": "Gaufre",
+          "gender": "female"
+        },
+        {
+          "name": "Pancake",
+          "gender": "neutral"
+        },
+        {
+          "name": "Brioche",
+          "gender": "female"
+        },
+        {
+          "name": "Croûton",
+          "gender": "male"
+        },
+        {
+          "name": "Moustache",
+          "gender": "neutral"
+        },
+        {
+          "name": "Patate",
+          "gender": "female"
+        },
+        {
+          "name": "Cornichon",
+          "gender": "male"
+        },
+        {
+          "name": "Saucisse",
+          "gender": "female"
+        },
+        {
+          "name": "Boudin",
+          "gender": "male"
+        },
+        {
+          "name": "Jambon",
+          "gender": "male"
+        },
+        {
+          "name": "Truffe",
+          "gender": "female"
+        },
+        {
+          "name": "Croquette",
+          "gender": "female"
+        },
+        {
+          "name": "Pâté",
+          "gender": "neutral"
+        },
+        {
+          "name": "Rillette",
+          "gender": "female"
+        },
+        {
+          "name": "Mousse",
+          "gender": "female"
+        }
+      ]
+    },
+    {
+      "slug": "pets_fr_vintage",
+      "title": "Vintage & Rétro",
+      "description": "Des noms rétro avec du charme",
+      "language": "fr",
+      "style": "vintage",
+      "names": [
+        {
+          "name": "Alphonse",
+          "gender": "male"
+        },
+        {
+          "name": "Barnabé",
+          "gender": "male"
+        },
+        {
+          "name": "Célestin",
+          "gender": "male"
+        },
+        {
+          "name": "Edmond",
+          "gender": "male"
+        },
+        {
+          "name": "Fernand",
+          "gender": "male"
+        },
+        {
+          "name": "Augustine",
+          "gender": "female"
+        },
+        {
+          "name": "Blanche",
+          "gender": "female"
+        },
+        {
+          "name": "Clémence",
+          "gender": "female"
+        },
+        {
+          "name": "Eugénie",
+          "gender": "female"
+        },
+        {
+          "name": "Hortense",
+          "gender": "female"
+        },
+        {
+          "name": "Gustave",
+          "gender": "male"
+        },
+        {
+          "name": "Hippolyte",
+          "gender": "male"
+        },
+        {
+          "name": "Isidore",
+          "gender": "male"
+        },
+        {
+          "name": "Léopold",
+          "gender": "male"
+        },
+        {
+          "name": "Maurice",
+          "gender": "male"
+        },
+        {
+          "name": "Joséphine",
+          "gender": "female"
+        },
+        {
+          "name": "Léontine",
+          "gender": "female"
+        },
+        {
+          "name": "Marguerite",
+          "gender": "female"
+        },
+        {
+          "name": "Paulette",
+          "gender": "female"
+        },
+        {
+          "name": "Suzanne",
+          "gender": "female"
+        },
+        {
+          "name": "Aristide",
+          "gender": "male"
+        },
+        {
+          "name": "Balthazar",
+          "gender": "male"
+        },
+        {
+          "name": "Constant",
+          "gender": "male"
+        },
+        {
+          "name": "Dieudonné",
+          "gender": "male"
+        },
+        {
+          "name": "Théophile",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "slug": "pets_fr_nature",
+      "title": "Inspiré par la Nature",
+      "description": "Des noms inspirés de la nature et du plein air",
+      "language": "fr",
+      "style": "nature",
+      "names": [
+        {
+          "name": "Soleil",
+          "gender": "male"
+        },
+        {
+          "name": "Lune",
+          "gender": "female"
+        },
+        {
+          "name": "Étoile",
+          "gender": "female"
+        },
+        {
+          "name": "Nuage",
+          "gender": "male"
+        },
+        {
+          "name": "Ciel",
+          "gender": "male"
+        },
+        {
+          "name": "Fleur",
+          "gender": "female"
+        },
+        {
+          "name": "Rose",
+          "gender": "female"
+        },
+        {
+          "name": "Violette",
+          "gender": "female"
+        },
+        {
+          "name": "Jasmin",
+          "gender": "male"
+        },
+        {
+          "name": "Océan",
+          "gender": "male"
+        },
+        {
+          "name": "Rivière",
+          "gender": "female"
+        },
+        {
+          "name": "Cascade",
+          "gender": "female"
+        },
+        {
+          "name": "Lac",
+          "gender": "male"
+        },
+        {
+          "name": "Source",
+          "gender": "female"
+        },
+        {
+          "name": "Forêt",
+          "gender": "female"
+        },
+        {
+          "name": "Sapin",
+          "gender": "male"
+        },
+        {
+          "name": "Chêne",
+          "gender": "male"
+        },
+        {
+          "name": "Bouleau",
+          "gender": "male"
+        },
+        {
+          "name": "Lilas",
+          "gender": "neutral"
+        },
+        {
+          "name": "Brume",
+          "gender": "female"
+        },
+        {
+          "name": "Aurore",
+          "gender": "female"
+        },
+        {
+          "name": "Tempête",
+          "gender": "female"
+        },
+        {
+          "name": "Orage",
+          "gender": "male"
+        },
+        {
+          "name": "Écume",
+          "gender": "female"
+        }
+      ]
+    },
+    {
+      "slug": "pets_fr_petnicknames",
+      "title": "Surnoms d'Animaux",
+      "description": "Des surnoms affectueux et classiques",
+      "language": "fr",
+      "style": "petnicknames",
+      "names": [
+        {
+          "name": "Chouchou",
+          "gender": "neutral"
+        },
+        {
+          "name": "Mon Cœur",
+          "gender": "neutral"
+        },
+        {
+          "name": "Ma Puce",
+          "gender": "female"
+        },
+        {
+          "name": "Mon Loulou",
+          "gender": "male"
+        },
+        {
+          "name": "Ma Belle",
+          "gender": "female"
+        },
+        {
+          "name": "Bébé",
+          "gender": "neutral"
+        },
+        {
+          "name": "Ange",
+          "gender": "neutral"
+        },
+        {
+          "name": "Toutou",
+          "gender": "male"
+        },
+        {
+          "name": "Pitou",
+          "gender": "male"
+        },
+        {
+          "name": "Boubou",
+          "gender": "neutral"
+        },
+        {
+          "name": "Kiki",
+          "gender": "neutral"
+        },
+        {
+          "name": "Gigi",
+          "gender": "neutral"
+        },
+        {
+          "name": "Fifi",
+          "gender": "neutral"
+        },
+        {
+          "name": "Bibi",
+          "gender": "neutral"
+        },
+        {
+          "name": "Titi",
+          "gender": "neutral"
+        },
+        {
+          "name": "Riri",
+          "gender": "neutral"
+        },
+        {
+          "name": "Lili",
+          "gender": "neutral"
+        },
+        {
+          "name": "Nini",
+          "gender": "neutral"
+        },
+        {
+          "name": "Zizi",
+          "gender": "neutral"
+        },
+        {
+          "name": "Pépère",
+          "gender": "male"
+        },
+        {
+          "name": "Mémère",
+          "gender": "female"
+        },
+        {
+          "name": "Papounet",
+          "gender": "male"
+        },
+        {
+          "name": "Mamounette",
+          "gender": "female"
+        },
+        {
+          "name": "Bout de Chou",
+          "gender": "neutral"
+        }
+      ]
+    },
+    {
+      "slug": "pets_es_cute",
+      "title": "Dulce & Tierno",
+      "description": "Nombres suaves y adorables",
+      "language": "es",
+      "style": "cute",
+      "names": [
+        {
+          "name": "Luna",
+          "gender": "female"
+        },
+        {
+          "name": "Coco",
+          "gender": "neutral"
+        },
+        {
+          "name": "Miel",
+          "gender": "female"
+        },
+        {
+          "name": "Canela",
+          "gender": "female"
+        },
+        {
+          "name": "Dulce",
+          "gender": "female"
+        },
+        {
+          "name": "Bombón",
+          "gender": "neutral"
+        },
+        {
+          "name": "Caramelo",
+          "gender": "neutral"
+        },
+        {
+          "name": "Pelusa",
+          "gender": "neutral"
+        },
+        {
+          "name": "Copito",
+          "gender": "male"
+        },
+        {
+          "name": "Nube",
+          "gender": "female"
+        },
+        {
+          "name": "Chispa",
+          "gender": "female"
+        },
+        {
+          "name": "Estrella",
+          "gender": "female"
+        },
+        {
+          "name": "Perla",
+          "gender": "female"
+        },
+        {
+          "name": "Princesa",
+          "gender": "female"
+        },
+        {
+          "name": "Reina",
+          "gender": "female"
+        },
+        {
+          "name": "Cariño",
+          "gender": "neutral"
+        },
+        {
+          "name": "Corazón",
+          "gender": "neutral"
+        },
+        {
+          "name": "Tesoro",
+          "gender": "neutral"
+        },
+        {
+          "name": "Cielo",
+          "gender": "neutral"
+        },
+        {
+          "name": "Sol",
+          "gender": "neutral"
+        },
+        {
+          "name": "Bolita",
+          "gender": "neutral"
+        },
+        {
+          "name": "Pompón",
+          "gender": "neutral"
+        },
+        {
+          "name": "Peluchín",
+          "gender": "neutral"
+        },
+        {
+          "name": "Algodón",
+          "gender": "neutral"
+        },
+        {
+          "name": "Rosita",
+          "gender": "female"
+        }
+      ]
+    },
+    {
+      "slug": "pets_es_strong",
+      "title": "Corto & Fuerte",
+      "description": "Nombres cortos con carácter",
+      "language": "es",
+      "style": "strong",
+      "names": [
+        {
+          "name": "Rex",
+          "gender": "male"
+        },
+        {
+          "name": "Thor",
+          "gender": "male"
+        },
+        {
+          "name": "Zeus",
+          "gender": "male"
+        },
+        {
+          "name": "Max",
+          "gender": "male"
+        },
+        {
+          "name": "Rocky",
+          "gender": "male"
+        },
+        {
+          "name": "Bravo",
+          "gender": "male"
+        },
+        {
+          "name": "Toro",
+          "gender": "male"
+        },
+        {
+          "name": "León",
+          "gender": "male"
+        },
+        {
+          "name": "Tigre",
+          "gender": "male"
+        },
+        {
+          "name": "Lobo",
+          "gender": "male"
+        },
+        {
+          "name": "Rayo",
+          "gender": "male"
+        },
+        {
+          "name": "Trueno",
+          "gender": "male"
+        },
+        {
+          "name": "Fuerza",
+          "gender": "male"
+        },
+        {
+          "name": "Valiente",
+          "gender": "male"
+        },
+        {
+          "name": "Jefe",
+          "gender": "male"
+        },
+        {
+          "name": "Duque",
+          "gender": "male"
+        },
+        {
+          "name": "Rey",
+          "gender": "male"
+        },
+        {
+          "name": "Sultán",
+          "gender": "male"
+        },
+        {
+          "name": "Príncipe",
+          "gender": "male"
+        },
+        {
+          "name": "César",
+          "gender": "male"
+        },
+        {
+          "name": "Goliat",
+          "gender": "male"
+        },
+        {
+          "name": "Titán",
+          "gender": "male"
+        },
+        {
+          "name": "Hércules",
+          "gender": "male"
+        },
+        {
+          "name": "Sansón",
+          "gender": "male"
+        },
+        {
+          "name": "Guerrero",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "slug": "pets_es_classic",
+      "title": "Nombres Clásicos",
+      "description": "Nombres atemporales y cercanos",
+      "language": "es",
+      "style": "classic",
+      "names": [
+        {
+          "name": "Toby",
+          "gender": "male"
+        },
+        {
+          "name": "Lucas",
+          "gender": "male"
+        },
+        {
+          "name": "Bruno",
+          "gender": "male"
+        },
+        {
+          "name": "Simón",
+          "gender": "male"
+        },
+        {
+          "name": "Lola",
+          "gender": "female"
+        },
+        {
+          "name": "Nina",
+          "gender": "female"
+        },
+        {
+          "name": "Chica",
+          "gender": "female"
+        },
+        {
+          "name": "Bella",
+          "gender": "female"
+        },
+        {
+          "name": "Paco",
+          "gender": "male"
+        },
+        {
+          "name": "Pepe",
+          "gender": "male"
+        },
+        {
+          "name": "Curro",
+          "gender": "male"
+        },
+        {
+          "name": "Manolo",
+          "gender": "male"
+        },
+        {
+          "name": "Pancho",
+          "gender": "male"
+        },
+        {
+          "name": "María",
+          "gender": "female"
+        },
+        {
+          "name": "Carmen",
+          "gender": "female"
+        },
+        {
+          "name": "Rocío",
+          "gender": "female"
+        },
+        {
+          "name": "Pilar",
+          "gender": "female"
+        },
+        {
+          "name": "Rosa",
+          "gender": "female"
+        },
+        {
+          "name": "Antonio",
+          "gender": "male"
+        },
+        {
+          "name": "Francisco",
+          "gender": "male"
+        },
+        {
+          "name": "José",
+          "gender": "male"
+        },
+        {
+          "name": "Miguel",
+          "gender": "male"
+        },
+        {
+          "name": "Pedro",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "slug": "pets_es_funny",
+      "title": "Divertido & Juguetón",
+      "description": "Nombres con humor y personalidad",
+      "language": "es",
+      "style": "funny",
+      "names": [
+        {
+          "name": "Churro",
+          "gender": "neutral"
+        },
+        {
+          "name": "Taco",
+          "gender": "neutral"
+        },
+        {
+          "name": "Nacho",
+          "gender": "male"
+        },
+        {
+          "name": "Burrito",
+          "gender": "neutral"
+        },
+        {
+          "name": "Quesito",
+          "gender": "neutral"
+        },
+        {
+          "name": "Chorizo",
+          "gender": "male"
+        },
+        {
+          "name": "Jamón",
+          "gender": "male"
+        },
+        {
+          "name": "Morcilla",
+          "gender": "female"
+        },
+        {
+          "name": "Tortilla",
+          "gender": "female"
+        },
+        {
+          "name": "Paella",
+          "gender": "female"
+        },
+        {
+          "name": "Flan",
+          "gender": "neutral"
+        },
+        {
+          "name": "Gazpacho",
+          "gender": "neutral"
+        },
+        {
+          "name": "Salsa",
+          "gender": "female"
+        },
+        {
+          "name": "Guacamole",
+          "gender": "neutral"
+        },
+        {
+          "name": "Tapas",
+          "gender": "neutral"
+        },
+        {
+          "name": "Patata",
+          "gender": "female"
+        },
+        {
+          "name": "Pepino",
+          "gender": "male"
+        },
+        {
+          "name": "Tomate",
+          "gender": "male"
+        },
+        {
+          "name": "Zanahoria",
+          "gender": "female"
+        },
+        {
+          "name": "Cebolla",
+          "gender": "female"
+        },
+        {
+          "name": "Bigotes",
+          "gender": "male"
+        },
+        {
+          "name": "Manchas",
+          "gender": "neutral"
+        },
+        {
+          "name": "Peludo",
+          "gender": "male"
+        },
+        {
+          "name": "Gordito",
+          "gender": "male"
+        },
+        {
+          "name": "Travieso",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "slug": "pets_es_vintage",
+      "title": "Vintage & Retro",
+      "description": "Nombres retro con encanto",
+      "language": "es",
+      "style": "vintage",
+      "names": [
+        {
+          "name": "Abundio",
+          "gender": "male"
+        },
+        {
+          "name": "Baldomero",
+          "gender": "male"
+        },
+        {
+          "name": "Casimiro",
+          "gender": "male"
+        },
+        {
+          "name": "Dionisio",
+          "gender": "male"
+        },
+        {
+          "name": "Emeterio",
+          "gender": "male"
+        },
+        {
+          "name": "Agustina",
+          "gender": "female"
+        },
+        {
+          "name": "Bonifacia",
+          "gender": "female"
+        },
+        {
+          "name": "Celestina",
+          "gender": "female"
+        },
+        {
+          "name": "Dolores",
+          "gender": "female"
+        },
+        {
+          "name": "Encarnación",
+          "gender": "female"
+        },
+        {
+          "name": "Fermín",
+          "gender": "male"
+        },
+        {
+          "name": "Gregorio",
+          "gender": "male"
+        },
+        {
+          "name": "Hilario",
+          "gender": "male"
+        },
+        {
+          "name": "Isidro",
+          "gender": "male"
+        },
+        {
+          "name": "Jacinto",
+          "gender": "male"
+        },
+        {
+          "name": "Gertrudis",
+          "gender": "female"
+        },
+        {
+          "name": "Herminia",
+          "gender": "female"
+        },
+        {
+          "name": "Ifigenia",
+          "gender": "female"
+        },
+        {
+          "name": "Josefa",
+          "gender": "female"
+        },
+        {
+          "name": "Leonor",
+          "gender": "female"
+        },
+        {
+          "name": "Macario",
+          "gender": "male"
+        },
+        {
+          "name": "Nicanor",
+          "gender": "male"
+        },
+        {
+          "name": "Olegario",
+          "gender": "male"
+        },
+        {
+          "name": "Pancracio",
+          "gender": "male"
+        },
+        {
+          "name": "Quirino",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "slug": "pets_es_nature",
+      "title": "Inspirado en la Naturaleza",
+      "description": "Nombres de la naturaleza y el aire libre",
+      "language": "es",
+      "style": "nature",
+      "names": [
+        {
+          "name": "Mar",
+          "gender": "neutral"
+        },
+        {
+          "name": "Río",
+          "gender": "male"
+        },
+        {
+          "name": "Bosque",
+          "gender": "male"
+        },
+        {
+          "name": "Montaña",
+          "gender": "female"
+        },
+        {
+          "name": "Selva",
+          "gender": "female"
+        },
+        {
+          "name": "Pradera",
+          "gender": "female"
+        },
+        {
+          "name": "Margarita",
+          "gender": "female"
+        },
+        {
+          "name": "Jazmín",
+          "gender": "female"
+        },
+        {
+          "name": "Azalea",
+          "gender": "female"
+        },
+        {
+          "name": "Orquídea",
+          "gender": "female"
+        },
+        {
+          "name": "Nieve",
+          "gender": "female"
+        },
+        {
+          "name": "Lluvia",
+          "gender": "female"
+        },
+        {
+          "name": "Viento",
+          "gender": "male"
+        },
+        {
+          "name": "Arcoíris",
+          "gender": "neutral"
+        },
+        {
+          "name": "Coral",
+          "gender": "female"
+        },
+        {
+          "name": "Ámbar",
+          "gender": "female"
+        },
+        {
+          "name": "Cristal",
+          "gender": "neutral"
+        },
+        {
+          "name": "Piedra",
+          "gender": "female"
+        }
+      ]
+    },
+    {
+      "slug": "pets_es_petnicknames",
+      "title": "Apodos de Mascotas",
+      "description": "Apodos cariñosos y nombres típicos",
+      "language": "es",
+      "style": "petnicknames",
+      "names": [
+        {
+          "name": "Amor",
+          "gender": "neutral"
+        },
+        {
+          "name": "Peque",
+          "gender": "neutral"
+        },
+        {
+          "name": "Chiqui",
+          "gender": "neutral"
+        },
+        {
+          "name": "Bebé",
+          "gender": "neutral"
+        },
+        {
+          "name": "Nene",
+          "gender": "male"
+        },
+        {
+          "name": "Nena",
+          "gender": "female"
+        },
+        {
+          "name": "Gordi",
+          "gender": "neutral"
+        },
+        {
+          "name": "Flaco",
+          "gender": "male"
+        },
+        {
+          "name": "Negrito",
+          "gender": "male"
+        },
+        {
+          "name": "Blanquito",
+          "gender": "male"
+        },
+        {
+          "name": "Rubio",
+          "gender": "male"
+        },
+        {
+          "name": "Bola",
+          "gender": "neutral"
+        },
+        {
+          "name": "Bichito",
+          "gender": "neutral"
+        },
+        {
+          "name": "Cosita",
+          "gender": "neutral"
+        },
+        {
+          "name": "Precioso",
+          "gender": "male"
+        },
+        {
+          "name": "Preciosa",
+          "gender": "female"
+        },
+        {
+          "name": "Bonito",
+          "gender": "male"
+        },
+        {
+          "name": "Bonita",
+          "gender": "female"
+        },
+        {
+          "name": "Guapo",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "slug": "pets_it_cute",
+      "title": "Dolce & Tenero",
+      "description": "Nomi teneri e adorabili",
+      "language": "it",
+      "style": "cute",
+      "names": [
+        {
+          "name": "Bella",
+          "gender": "female"
+        },
+        {
+          "name": "Luna",
+          "gender": "female"
+        },
+        {
+          "name": "Stella",
+          "gender": "female"
+        },
+        {
+          "name": "Miele",
+          "gender": "neutral"
+        },
+        {
+          "name": "Dolce",
+          "gender": "neutral"
+        },
+        {
+          "name": "Amore",
+          "gender": "neutral"
+        },
+        {
+          "name": "Cuore",
+          "gender": "neutral"
+        },
+        {
+          "name": "Tesoro",
+          "gender": "neutral"
+        },
+        {
+          "name": "Perla",
+          "gender": "female"
+        },
+        {
+          "name": "Gioia",
+          "gender": "female"
+        },
+        {
+          "name": "Biscotto",
+          "gender": "neutral"
+        },
+        {
+          "name": "Cioccolato",
+          "gender": "neutral"
+        },
+        {
+          "name": "Caramella",
+          "gender": "female"
+        },
+        {
+          "name": "Nuvola",
+          "gender": "female"
+        },
+        {
+          "name": "Fiocco",
+          "gender": "neutral"
+        },
+        {
+          "name": "Batuffolo",
+          "gender": "neutral"
+        },
+        {
+          "name": "Pallina",
+          "gender": "female"
+        },
+        {
+          "name": "Briciola",
+          "gender": "female"
+        },
+        {
+          "name": "Pulce",
+          "gender": "neutral"
+        },
+        {
+          "name": "Topolino",
+          "gender": "male"
+        },
+        {
+          "name": "Coccolino",
+          "gender": "male"
+        },
+        {
+          "name": "Cucciolino",
+          "gender": "male"
+        },
+        {
+          "name": "Micino",
+          "gender": "male"
+        },
+        {
+          "name": "Orsetto",
+          "gender": "male"
+        },
+        {
+          "name": "Bambi",
+          "gender": "female"
+        }
+      ]
+    },
+    {
+      "slug": "pets_it_strong",
+      "title": "Corto & Forte",
+      "description": "Nomi brevi con carattere",
+      "language": "it",
+      "style": "strong",
+      "names": [
+        {
+          "name": "Max",
+          "gender": "male"
+        },
+        {
+          "name": "Rex",
+          "gender": "male"
+        },
+        {
+          "name": "Thor",
+          "gender": "male"
+        },
+        {
+          "name": "Zeus",
+          "gender": "male"
+        },
+        {
+          "name": "Brutus",
+          "gender": "male"
+        },
+        {
+          "name": "Cesare",
+          "gender": "male"
+        },
+        {
+          "name": "Nerone",
+          "gender": "male"
+        },
+        {
+          "name": "Spartaco",
+          "gender": "male"
+        },
+        {
+          "name": "Achille",
+          "gender": "male"
+        },
+        {
+          "name": "Ercole",
+          "gender": "male"
+        },
+        {
+          "name": "Leone",
+          "gender": "male"
+        },
+        {
+          "name": "Lupo",
+          "gender": "male"
+        },
+        {
+          "name": "Orso",
+          "gender": "male"
+        },
+        {
+          "name": "Tigre",
+          "gender": "male"
+        },
+        {
+          "name": "Falco",
+          "gender": "male"
+        },
+        {
+          "name": "Tuono",
+          "gender": "male"
+        },
+        {
+          "name": "Fulmine",
+          "gender": "male"
+        },
+        {
+          "name": "Tempesta",
+          "gender": "female"
+        },
+        {
+          "name": "Uragano",
+          "gender": "male"
+        },
+        {
+          "name": "Ciclone",
+          "gender": "male"
+        },
+        {
+          "name": "Rocco",
+          "gender": "male"
+        },
+        {
+          "name": "Bruno",
+          "gender": "male"
+        },
+        {
+          "name": "Duca",
+          "gender": "male"
+        },
+        {
+          "name": "Barone",
+          "gender": "male"
+        },
+        {
+          "name": "Principe",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "slug": "pets_it_classic",
+      "title": "Nomi Classici",
+      "description": "Nomi senza tempo e familiari",
+      "language": "it",
+      "style": "classic",
+      "names": [
+        {
+          "name": "Pippo",
+          "gender": "male"
+        },
+        {
+          "name": "Pluto",
+          "gender": "male"
+        },
+        {
+          "name": "Fido",
+          "gender": "male"
+        },
+        {
+          "name": "Lassie",
+          "gender": "female"
+        },
+        {
+          "name": "Romeo",
+          "gender": "male"
+        },
+        {
+          "name": "Giulietta",
+          "gender": "female"
+        },
+        {
+          "name": "Sofia",
+          "gender": "female"
+        },
+        {
+          "name": "Marco",
+          "gender": "male"
+        },
+        {
+          "name": "Luca",
+          "gender": "male"
+        },
+        {
+          "name": "Matteo",
+          "gender": "male"
+        },
+        {
+          "name": "Francesca",
+          "gender": "female"
+        },
+        {
+          "name": "Giulia",
+          "gender": "female"
+        },
+        {
+          "name": "Chiara",
+          "gender": "female"
+        },
+        {
+          "name": "Valentina",
+          "gender": "female"
+        },
+        {
+          "name": "Laura",
+          "gender": "female"
+        },
+        {
+          "name": "Giuseppe",
+          "gender": "male"
+        },
+        {
+          "name": "Giovanni",
+          "gender": "male"
+        },
+        {
+          "name": "Antonio",
+          "gender": "male"
+        },
+        {
+          "name": "Francesco",
+          "gender": "male"
+        },
+        {
+          "name": "Alessandro",
+          "gender": "male"
+        },
+        {
+          "name": "Maria",
+          "gender": "female"
+        },
+        {
+          "name": "Anna",
+          "gender": "female"
+        },
+        {
+          "name": "Rosa",
+          "gender": "female"
+        },
+        {
+          "name": "Elena",
+          "gender": "female"
+        },
+        {
+          "name": "Lucia",
+          "gender": "female"
+        }
+      ]
+    },
+    {
+      "slug": "pets_it_funny",
+      "title": "Divertente & Giocoso",
+      "description": "Nomi con umorismo e personalità",
+      "language": "it",
+      "style": "funny",
+      "names": [
+        {
+          "name": "Pizza",
+          "gender": "female"
+        },
+        {
+          "name": "Pasta",
+          "gender": "female"
+        },
+        {
+          "name": "Lasagna",
+          "gender": "female"
+        },
+        {
+          "name": "Risotto",
+          "gender": "neutral"
+        },
+        {
+          "name": "Gnocchi",
+          "gender": "neutral"
+        },
+        {
+          "name": "Tortellino",
+          "gender": "male"
+        },
+        {
+          "name": "Raviolo",
+          "gender": "male"
+        },
+        {
+          "name": "Cappuccino",
+          "gender": "male"
+        },
+        {
+          "name": "Espresso",
+          "gender": "male"
+        },
+        {
+          "name": "Tiramisù",
+          "gender": "neutral"
+        },
+        {
+          "name": "Gelato",
+          "gender": "neutral"
+        },
+        {
+          "name": "Panna",
+          "gender": "female"
+        },
+        {
+          "name": "Nutella",
+          "gender": "female"
+        },
+        {
+          "name": "Cannolo",
+          "gender": "male"
+        },
+        {
+          "name": "Prosciutto",
+          "gender": "male"
+        },
+        {
+          "name": "Salame",
+          "gender": "male"
+        },
+        {
+          "name": "Mozzarella",
+          "gender": "female"
+        },
+        {
+          "name": "Parmigiano",
+          "gender": "male"
+        },
+        {
+          "name": "Pecorino",
+          "gender": "male"
+        },
+        {
+          "name": "Peperoncino",
+          "gender": "male"
+        },
+        {
+          "name": "Basilico",
+          "gender": "male"
+        },
+        {
+          "name": "Pomodoro",
+          "gender": "male"
+        },
+        {
+          "name": "Zucchina",
+          "gender": "female"
+        },
+        {
+          "name": "Fungo",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "slug": "pets_it_vintage",
+      "title": "Vintage & Retrò",
+      "description": "Nomi retrò pieni di fascino",
+      "language": "it",
+      "style": "vintage",
+      "names": [
+        {
+          "name": "Adolfo",
+          "gender": "male"
+        },
+        {
+          "name": "Benito",
+          "gender": "male"
+        },
+        {
+          "name": "Corrado",
+          "gender": "male"
+        },
+        {
+          "name": "Domenico",
+          "gender": "male"
+        },
+        {
+          "name": "Ernesto",
+          "gender": "male"
+        },
+        {
+          "name": "Adelina",
+          "gender": "female"
+        },
+        {
+          "name": "Berta",
+          "gender": "female"
+        },
+        {
+          "name": "Clotilde",
+          "gender": "female"
+        },
+        {
+          "name": "Delfina",
+          "gender": "female"
+        },
+        {
+          "name": "Elvira",
+          "gender": "female"
+        },
+        {
+          "name": "Ferdinando",
+          "gender": "male"
+        },
+        {
+          "name": "Gaetano",
+          "gender": "male"
+        },
+        {
+          "name": "Ignazio",
+          "gender": "male"
+        },
+        {
+          "name": "Lorenzo",
+          "gender": "male"
+        },
+        {
+          "name": "Marcello",
+          "gender": "male"
+        },
+        {
+          "name": "Filomena",
+          "gender": "female"
+        },
+        {
+          "name": "Genoveffa",
+          "gender": "female"
+        },
+        {
+          "name": "Immacolata",
+          "gender": "female"
+        },
+        {
+          "name": "Leonilda",
+          "gender": "female"
+        },
+        {
+          "name": "Maddalena",
+          "gender": "female"
+        },
+        {
+          "name": "Narciso",
+          "gender": "male"
+        },
+        {
+          "name": "Ottavio",
+          "gender": "male"
+        },
+        {
+          "name": "Pasquale",
+          "gender": "male"
+        },
+        {
+          "name": "Quirino",
+          "gender": "male"
+        },
+        {
+          "name": "Raffaele",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "slug": "pets_it_nature",
+      "title": "Ispirato alla Natura",
+      "description": "Nomi dalla natura e dall'aria aperta",
+      "language": "it",
+      "style": "nature",
+      "names": [
+        {
+          "name": "Sole",
+          "gender": "male"
+        },
+        {
+          "name": "Cielo",
+          "gender": "male"
+        },
+        {
+          "name": "Mare",
+          "gender": "neutral"
+        },
+        {
+          "name": "Fiume",
+          "gender": "male"
+        },
+        {
+          "name": "Bosco",
+          "gender": "male"
+        },
+        {
+          "name": "Monte",
+          "gender": "male"
+        },
+        {
+          "name": "Prato",
+          "gender": "male"
+        },
+        {
+          "name": "Giardino",
+          "gender": "male"
+        },
+        {
+          "name": "Margherita",
+          "gender": "female"
+        },
+        {
+          "name": "Viola",
+          "gender": "female"
+        },
+        {
+          "name": "Gelsomino",
+          "gender": "male"
+        },
+        {
+          "name": "Giglio",
+          "gender": "male"
+        },
+        {
+          "name": "Neve",
+          "gender": "female"
+        },
+        {
+          "name": "Pioggia",
+          "gender": "female"
+        },
+        {
+          "name": "Vento",
+          "gender": "male"
+        },
+        {
+          "name": "Aurora",
+          "gender": "female"
+        },
+        {
+          "name": "Corallo",
+          "gender": "neutral"
+        },
+        {
+          "name": "Ambra",
+          "gender": "female"
+        },
+        {
+          "name": "Cristallo",
+          "gender": "neutral"
+        },
+        {
+          "name": "Sasso",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "slug": "pets_it_petnicknames",
+      "title": "Soprannomi per Animali",
+      "description": "Soprannomi affettuosi e classici",
+      "language": "it",
+      "style": "petnicknames",
+      "names": [
+        {
+          "name": "Piccolo",
+          "gender": "male"
+        },
+        {
+          "name": "Piccola",
+          "gender": "female"
+        },
+        {
+          "name": "Bello",
+          "gender": "male"
+        },
+        {
+          "name": "Caro",
+          "gender": "male"
+        },
+        {
+          "name": "Cucciolotto",
+          "gender": "male"
+        },
+        {
+          "name": "Micetto",
+          "gender": "male"
+        },
+        {
+          "name": "Pallino",
+          "gender": "male"
+        },
+        {
+          "name": "Batuffolino",
+          "gender": "male"
+        },
+        {
+          "name": "Orsacchiotto",
+          "gender": "male"
+        },
+        {
+          "name": "Tenerino",
+          "gender": "male"
+        },
+        {
+          "name": "Dolcino",
+          "gender": "male"
+        },
+        {
+          "name": "Patatino",
+          "gender": "male"
+        },
+        {
+          "name": "Nanetto",
+          "gender": "male"
+        },
+        {
+          "name": "Frugolino",
+          "gender": "male"
+        },
+        {
+          "name": "Bimbo",
+          "gender": "male"
+        },
+        {
+          "name": "Bimba",
+          "gender": "female"
+        },
+        {
+          "name": "Angioletto",
+          "gender": "male"
+        },
+        {
+          "name": "Tesorino",
+          "gender": "male"
+        },
+        {
+          "name": "Cuoricino",
+          "gender": "neutral"
+        }
+      ]
+    },
+    {
+      "slug": "pets_sv_cute",
+      "title": "Gullig & Söt",
+      "description": "Mjuka och gulliga namn för husdjur",
+      "language": "sv",
+      "style": "cute",
+      "names": [
+        {
+          "name": "Bella",
+          "gender": "female"
+        },
+        {
+          "name": "Luna",
+          "gender": "female"
+        },
+        {
+          "name": "Molly",
+          "gender": "female"
+        },
+        {
+          "name": "Maja",
+          "gender": "female"
+        },
+        {
+          "name": "Saga",
+          "gender": "female"
+        },
+        {
+          "name": "Sigge",
+          "gender": "male"
+        },
+        {
+          "name": "Milo",
+          "gender": "male"
+        },
+        {
+          "name": "Charlie",
+          "gender": "male"
+        },
+        {
+          "name": "Bamse",
+          "gender": "male"
+        },
+        {
+          "name": "Mysen",
+          "gender": "neutral"
+        },
+        {
+          "name": "Bulan",
+          "gender": "neutral"
+        },
+        {
+          "name": "Tulan",
+          "gender": "neutral"
+        },
+        {
+          "name": "Fluffen",
+          "gender": "neutral"
+        },
+        {
+          "name": "Musen",
+          "gender": "neutral"
+        },
+        {
+          "name": "Nansen",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "slug": "pets_sv_strong",
+      "title": "Kort & Stark",
+      "description": "Korta namn med kraft",
+      "language": "sv",
+      "style": "strong",
+      "names": [
+        {
+          "name": "Thor",
+          "gender": "male"
+        },
+        {
+          "name": "Odin",
+          "gender": "male"
+        },
+        {
+          "name": "Freja",
+          "gender": "female"
+        },
+        {
+          "name": "Max",
+          "gender": "male"
+        },
+        {
+          "name": "Rex",
+          "gender": "male"
+        },
+        {
+          "name": "Bruno",
+          "gender": "male"
+        },
+        {
+          "name": "Rocky",
+          "gender": "male"
+        },
+        {
+          "name": "Diesel",
+          "gender": "male"
+        },
+        {
+          "name": "Björn",
+          "gender": "male"
+        },
+        {
+          "name": "Storm",
+          "gender": "male"
+        },
+        {
+          "name": "Viking",
+          "gender": "male"
+        },
+        {
+          "name": "Ragnar",
+          "gender": "male"
+        },
+        {
+          "name": "Stark",
+          "gender": "male"
+        },
+        {
+          "name": "Kraft",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "slug": "pets_sv_classic",
+      "title": "Klassiska Namn",
+      "description": "Tidlösa namn som känns familjära",
+      "language": "sv",
+      "style": "classic",
+      "names": [
+        {
+          "name": "Ludde",
+          "gender": "male"
+        },
+        {
+          "name": "Ville",
+          "gender": "male"
+        },
+        {
+          "name": "Erik",
+          "gender": "male"
+        },
+        {
+          "name": "Lars",
+          "gender": "male"
+        },
+        {
+          "name": "Nils",
+          "gender": "male"
+        },
+        {
+          "name": "Sven",
+          "gender": "male"
+        },
+        {
+          "name": "Anna",
+          "gender": "female"
+        },
+        {
+          "name": "Kalle",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "slug": "pets_sv_funny",
+      "title": "Rolig & Lekfull",
+      "description": "Namn med humor och personlighet",
+      "language": "sv",
+      "style": "funny",
+      "names": [
+        {
+          "name": "Köttansen",
+          "gender": "neutral"
+        },
+        {
+          "name": "Bulansen",
+          "gender": "neutral"
+        },
+        {
+          "name": "Pannansen",
+          "gender": "neutral"
+        },
+        {
+          "name": "Våfansen",
+          "gender": "neutral"
+        },
+        {
+          "name": "Kanelsen",
+          "gender": "neutral"
+        }
+      ]
+    },
+    {
+      "slug": "pets_sv_vintage",
+      "title": "Vintage & Retro",
+      "description": "Retro-namn med charm",
+      "language": "sv",
+      "style": "vintage",
+      "names": [
+        {
+          "name": "Agda",
+          "gender": "female"
+        },
+        {
+          "name": "Bertil",
+          "gender": "male"
+        },
+        {
+          "name": "Dagny",
+          "gender": "female"
+        },
+        {
+          "name": "Edvin",
+          "gender": "male"
+        },
+        {
+          "name": "Greta",
+          "gender": "female"
+        },
+        {
+          "name": "Harald",
+          "gender": "male"
+        },
+        {
+          "name": "Ingeborg",
+          "gender": "female"
+        },
+        {
+          "name": "Johan",
+          "gender": "male"
+        },
+        {
+          "name": "Kerstin",
+          "gender": "female"
+        },
+        {
+          "name": "Lennart",
+          "gender": "male"
+        },
+        {
+          "name": "Märta",
+          "gender": "female"
+        },
+        {
+          "name": "Olga",
+          "gender": "female"
+        },
+        {
+          "name": "Ragna",
+          "gender": "female"
+        },
+        {
+          "name": "Sixten",
+          "gender": "male"
+        },
+        {
+          "name": "Tyra",
+          "gender": "female"
+        },
+        {
+          "name": "Ulf",
+          "gender": "male"
+        },
+        {
+          "name": "Viola",
+          "gender": "female"
+        },
+        {
+          "name": "Valdemar",
+          "gender": "male"
+        },
+        {
+          "name": "Gunhild",
+          "gender": "female"
+        },
+        {
+          "name": "Folke",
+          "gender": "male"
+        },
+        {
+          "name": "Helga",
+          "gender": "female"
+        }
+      ]
+    },
+    {
+      "slug": "pets_sv_nature",
+      "title": "Naturinspirerat",
+      "description": "Namn inspirerade av naturen",
+      "language": "sv",
+      "style": "nature",
+      "names": [
+        {
+          "name": "Björk",
+          "gender": "female"
+        },
+        {
+          "name": "Ek",
+          "gender": "male"
+        },
+        {
+          "name": "Furu",
+          "gender": "female"
+        },
+        {
+          "name": "Gran",
+          "gender": "female"
+        },
+        {
+          "name": "Lind",
+          "gender": "female"
+        },
+        {
+          "name": "Älv",
+          "gender": "female"
+        },
+        {
+          "name": "Bäck",
+          "gender": "male"
+        },
+        {
+          "name": "Sjö",
+          "gender": "female"
+        },
+        {
+          "name": "Skog",
+          "gender": "male"
+        },
+        {
+          "name": "Äng",
+          "gender": "female"
+        },
+        {
+          "name": "Sol",
+          "gender": "neutral"
+        },
+        {
+          "name": "Måne",
+          "gender": "neutral"
+        },
+        {
+          "name": "Stjärna",
+          "gender": "female"
+        },
+        {
+          "name": "Himmel",
+          "gender": "male"
+        },
+        {
+          "name": "Moln",
+          "gender": "neutral"
+        },
+        {
+          "name": "Snö",
+          "gender": "female"
+        },
+        {
+          "name": "Regn",
+          "gender": "neutral"
+        },
+        {
+          "name": "Vind",
+          "gender": "male"
+        },
+        {
+          "name": "Frost",
+          "gender": "neutral"
+        },
+        {
+          "name": "Blomma",
+          "gender": "female"
+        },
+        {
+          "name": "Ros",
+          "gender": "female"
+        },
+        {
+          "name": "Lilja",
+          "gender": "female"
+        },
+        {
+          "name": "Sten",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "slug": "pets_sv_petnicknames",
+      "title": "Smeknamn",
+      "description": "Kärleksfulla smeknamn för husdjur",
+      "language": "sv",
+      "style": "petnicknames",
+      "names": [
+        {
+          "name": "Älskling",
+          "gender": "neutral"
+        },
+        {
+          "name": "Gansen",
+          "gender": "neutral"
+        },
+        {
+          "name": "Sansen",
+          "gender": "neutral"
+        },
+        {
+          "name": "Bansen",
+          "gender": "neutral"
+        },
+        {
+          "name": "Lansen",
+          "gender": "neutral"
+        }
+      ]
+    },
+    {
+      "slug": "pets_no_cute",
+      "title": "Søt & Koselig",
+      "description": "Myke og søte navn for kjæledyr",
+      "language": "no",
+      "style": "cute",
+      "names": [
+        {
+          "name": "Luna",
+          "gender": "female"
+        },
+        {
+          "name": "Bella",
+          "gender": "female"
+        },
+        {
+          "name": "Molly",
+          "gender": "female"
+        },
+        {
+          "name": "Charlie",
+          "gender": "male"
+        },
+        {
+          "name": "Nansen",
+          "gender": "female"
+        },
+        {
+          "name": "Bamse",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "slug": "pets_no_strong",
+      "title": "Kort & Sterk",
+      "description": "Korte navn med trøkk",
+      "language": "no",
+      "style": "strong",
+      "names": [
+        {
+          "name": "Thor",
+          "gender": "male"
+        },
+        {
+          "name": "Odin",
+          "gender": "male"
+        },
+        {
+          "name": "Max",
+          "gender": "male"
+        },
+        {
+          "name": "Rex",
+          "gender": "male"
+        },
+        {
+          "name": "Bruno",
+          "gender": "male"
+        },
+        {
+          "name": "Storm",
+          "gender": "male"
+        },
+        {
+          "name": "Kraft",
+          "gender": "male"
+        },
+        {
+          "name": "Viking",
+          "gender": "male"
+        },
+        {
+          "name": "Bjørn",
+          "gender": "male"
+        },
+        {
+          "name": "Ulv",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "slug": "pets_no_classic",
+      "title": "Klassiske Navn",
+      "description": "Tidløse navn som føles trygge",
+      "language": "no",
+      "style": "classic",
+      "names": [
+        {
+          "name": "Erik",
+          "gender": "male"
+        },
+        {
+          "name": "Lars",
+          "gender": "male"
+        },
+        {
+          "name": "Nils",
+          "gender": "male"
+        },
+        {
+          "name": "Olav",
+          "gender": "male"
+        },
+        {
+          "name": "Anna",
+          "gender": "female"
+        }
+      ]
+    },
+    {
+      "slug": "pets_no_funny",
+      "title": "Morsom & Leken",
+      "description": "Navn med humor og personlighet",
+      "language": "no",
+      "style": "funny",
+      "names": [
+        {
+          "name": "Pansen",
+          "gender": "neutral"
+        },
+        {
+          "name": "Bansen",
+          "gender": "neutral"
+        },
+        {
+          "name": "Fansen",
+          "gender": "neutral"
+        }
+      ]
+    },
+    {
+      "slug": "pets_no_vintage",
+      "title": "Vintage & Retro",
+      "description": "Retro-navn med sjarm",
+      "language": "no",
+      "style": "vintage",
+      "names": [
+        {
+          "name": "Agda",
+          "gender": "female"
+        },
+        {
+          "name": "Bertil",
+          "gender": "male"
+        },
+        {
+          "name": "Dagny",
+          "gender": "female"
+        },
+        {
+          "name": "Edvin",
+          "gender": "male"
+        },
+        {
+          "name": "Greta",
+          "gender": "female"
+        },
+        {
+          "name": "Harald",
+          "gender": "male"
+        },
+        {
+          "name": "Ingeborg",
+          "gender": "female"
+        },
+        {
+          "name": "Johan",
+          "gender": "male"
+        },
+        {
+          "name": "Kerstin",
+          "gender": "female"
+        },
+        {
+          "name": "Leif",
+          "gender": "male"
+        },
+        {
+          "name": "Marta",
+          "gender": "female"
+        },
+        {
+          "name": "Olga",
+          "gender": "female"
+        },
+        {
+          "name": "Ragna",
+          "gender": "female"
+        },
+        {
+          "name": "Sigurd",
+          "gender": "male"
+        },
+        {
+          "name": "Tyra",
+          "gender": "female"
+        },
+        {
+          "name": "Ulf",
+          "gender": "male"
+        },
+        {
+          "name": "Viola",
+          "gender": "female"
+        },
+        {
+          "name": "Valdemar",
+          "gender": "male"
+        },
+        {
+          "name": "Gunhild",
+          "gender": "female"
+        },
+        {
+          "name": "Folke",
+          "gender": "male"
+        },
+        {
+          "name": "Helga",
+          "gender": "female"
+        }
+      ]
+    },
+    {
+      "slug": "pets_no_nature",
+      "title": "Naturinspirert",
+      "description": "Navn fra natur og friluft",
+      "language": "no",
+      "style": "nature",
+      "names": [
+        {
+          "name": "Bjørk",
+          "gender": "female"
+        },
+        {
+          "name": "Eik",
+          "gender": "male"
+        },
+        {
+          "name": "Furu",
+          "gender": "female"
+        },
+        {
+          "name": "Gran",
+          "gender": "female"
+        },
+        {
+          "name": "Lind",
+          "gender": "female"
+        },
+        {
+          "name": "Elv",
+          "gender": "female"
+        },
+        {
+          "name": "Bekk",
+          "gender": "male"
+        },
+        {
+          "name": "Sjø",
+          "gender": "female"
+        },
+        {
+          "name": "Skog",
+          "gender": "male"
+        },
+        {
+          "name": "Eng",
+          "gender": "female"
+        },
+        {
+          "name": "Sol",
+          "gender": "neutral"
+        },
+        {
+          "name": "Måne",
+          "gender": "neutral"
+        },
+        {
+          "name": "Stjerne",
+          "gender": "female"
+        },
+        {
+          "name": "Himmel",
+          "gender": "male"
+        },
+        {
+          "name": "Sky",
+          "gender": "neutral"
+        },
+        {
+          "name": "Snø",
+          "gender": "female"
+        },
+        {
+          "name": "Regn",
+          "gender": "neutral"
+        },
+        {
+          "name": "Vind",
+          "gender": "male"
+        },
+        {
+          "name": "Frost",
+          "gender": "neutral"
+        },
+        {
+          "name": "Blomst",
+          "gender": "female"
+        },
+        {
+          "name": "Rose",
+          "gender": "female"
+        },
+        {
+          "name": "Lilje",
+          "gender": "female"
+        },
+        {
+          "name": "Fjell",
+          "gender": "neutral"
+        },
+        {
+          "name": "Stein",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "slug": "pets_no_petnicknames",
+      "title": "Kallenavn",
+      "description": "Kjælenavn og klassiske ropenavn",
+      "language": "no",
+      "style": "petnicknames",
+      "names": [
+        {
+          "name": "Kjansen",
+          "gender": "neutral"
+        },
+        {
+          "name": "Gansen",
+          "gender": "neutral"
+        },
+        {
+          "name": "Sansen",
+          "gender": "neutral"
+        }
+      ]
+    },
+    {
+      "slug": "pets_da_cute",
+      "title": "Sød & Nuttet",
+      "description": "Bløde og nuttede navne til kæledyr",
+      "language": "da",
+      "style": "cute",
+      "names": [
+        {
+          "name": "Luna",
+          "gender": "female"
+        },
+        {
+          "name": "Bella",
+          "gender": "female"
+        },
+        {
+          "name": "Molly",
+          "gender": "female"
+        },
+        {
+          "name": "Charlie",
+          "gender": "male"
+        },
+        {
+          "name": "Bamse",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "slug": "pets_da_strong",
+      "title": "Kort & Stærk",
+      "description": "Korte navne med power",
+      "language": "da",
+      "style": "strong",
+      "names": [
+        {
+          "name": "Thor",
+          "gender": "male"
+        },
+        {
+          "name": "Odin",
+          "gender": "male"
+        },
+        {
+          "name": "Max",
+          "gender": "male"
+        },
+        {
+          "name": "Rex",
+          "gender": "male"
+        },
+        {
+          "name": "Bruno",
+          "gender": "male"
+        },
+        {
+          "name": "Storm",
+          "gender": "male"
+        },
+        {
+          "name": "Kraft",
+          "gender": "male"
+        },
+        {
+          "name": "Viking",
+          "gender": "male"
+        },
+        {
+          "name": "Bjørn",
+          "gender": "male"
+        },
+        {
+          "name": "Ulv",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "slug": "pets_da_classic",
+      "title": "Klassiske Navne",
+      "description": "Tidløse navne, trygge og velkendte",
+      "language": "da",
+      "style": "classic",
+      "names": [
+        {
+          "name": "Erik",
+          "gender": "male"
+        },
+        {
+          "name": "Lars",
+          "gender": "male"
+        },
+        {
+          "name": "Niels",
+          "gender": "male"
+        },
+        {
+          "name": "Hans",
+          "gender": "male"
+        },
+        {
+          "name": "Anna",
+          "gender": "female"
+        }
+      ]
+    },
+    {
+      "slug": "pets_da_funny",
+      "title": "Sjov & Legesyg",
+      "description": "Navne med humor og personlighed",
+      "language": "da",
+      "style": "funny",
+      "names": [
+        {
+          "name": "Pansen",
+          "gender": "neutral"
+        },
+        {
+          "name": "Bansen",
+          "gender": "neutral"
+        },
+        {
+          "name": "Fansen",
+          "gender": "neutral"
+        }
+      ]
+    },
+    {
+      "slug": "pets_da_vintage",
+      "title": "Vintage & Retro",
+      "description": "Retro-navne med charme",
+      "language": "da",
+      "style": "vintage",
+      "names": [
+        {
+          "name": "Agda",
+          "gender": "female"
+        },
+        {
+          "name": "Bertil",
+          "gender": "male"
+        },
+        {
+          "name": "Dagny",
+          "gender": "female"
+        },
+        {
+          "name": "Edvin",
+          "gender": "male"
+        },
+        {
+          "name": "Greta",
+          "gender": "female"
+        },
+        {
+          "name": "Harald",
+          "gender": "male"
+        },
+        {
+          "name": "Ingeborg",
+          "gender": "female"
+        },
+        {
+          "name": "Johan",
+          "gender": "male"
+        },
+        {
+          "name": "Karen",
+          "gender": "female"
+        },
+        {
+          "name": "Leif",
+          "gender": "male"
+        },
+        {
+          "name": "Marta",
+          "gender": "female"
+        },
+        {
+          "name": "Olga",
+          "gender": "female"
+        },
+        {
+          "name": "Ragna",
+          "gender": "female"
+        },
+        {
+          "name": "Svend",
+          "gender": "male"
+        },
+        {
+          "name": "Tyra",
+          "gender": "female"
+        },
+        {
+          "name": "Ulf",
+          "gender": "male"
+        },
+        {
+          "name": "Viola",
+          "gender": "female"
+        },
+        {
+          "name": "Valdemar",
+          "gender": "male"
+        },
+        {
+          "name": "Gunhild",
+          "gender": "female"
+        },
+        {
+          "name": "Folke",
+          "gender": "male"
+        },
+        {
+          "name": "Helga",
+          "gender": "female"
+        }
+      ]
+    },
+    {
+      "slug": "pets_da_nature",
+      "title": "Naturinspireret",
+      "description": "Navne inspireret af naturen",
+      "language": "da",
+      "style": "nature",
+      "names": [
+        {
+          "name": "Birk",
+          "gender": "female"
+        },
+        {
+          "name": "Eg",
+          "gender": "male"
+        },
+        {
+          "name": "Fyr",
+          "gender": "female"
+        },
+        {
+          "name": "Gran",
+          "gender": "female"
+        },
+        {
+          "name": "Lind",
+          "gender": "female"
+        },
+        {
+          "name": "Å",
+          "gender": "female"
+        },
+        {
+          "name": "Bæk",
+          "gender": "male"
+        },
+        {
+          "name": "Sø",
+          "gender": "female"
+        },
+        {
+          "name": "Skov",
+          "gender": "male"
+        },
+        {
+          "name": "Eng",
+          "gender": "female"
+        },
+        {
+          "name": "Sol",
+          "gender": "neutral"
+        },
+        {
+          "name": "Måne",
+          "gender": "neutral"
+        },
+        {
+          "name": "Stjerne",
+          "gender": "female"
+        },
+        {
+          "name": "Himmel",
+          "gender": "male"
+        },
+        {
+          "name": "Sky",
+          "gender": "neutral"
+        },
+        {
+          "name": "Sne",
+          "gender": "female"
+        },
+        {
+          "name": "Regn",
+          "gender": "neutral"
+        },
+        {
+          "name": "Vind",
+          "gender": "male"
+        },
+        {
+          "name": "Frost",
+          "gender": "neutral"
+        },
+        {
+          "name": "Blomst",
+          "gender": "female"
+        },
+        {
+          "name": "Rose",
+          "gender": "female"
+        },
+        {
+          "name": "Lilje",
+          "gender": "female"
+        },
+        {
+          "name": "Bakke",
+          "gender": "neutral"
+        },
+        {
+          "name": "Sten",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "slug": "pets_da_petnicknames",
+      "title": "Kælenavne",
+      "description": "Kælenavne og klassiske kaldnavne",
+      "language": "da",
+      "style": "petnicknames",
+      "names": [
+        {
+          "name": "Sansen",
+          "gender": "neutral"
+        },
+        {
+          "name": "Gansen",
+          "gender": "neutral"
+        }
+      ]
+    },
+    {
+      "slug": "pets_fi_cute",
+      "title": "Söpö & Suloinen",
+      "description": "Pehmeät ja suloiset nimet lemmikeille",
+      "language": "fi",
+      "style": "cute",
+      "names": [
+        {
+          "name": "Luna",
+          "gender": "female"
+        },
+        {
+          "name": "Bella",
+          "gender": "female"
+        },
+        {
+          "name": "Musti",
+          "gender": "male"
+        },
+        {
+          "name": "Mirri",
+          "gender": "female"
+        },
+        {
+          "name": "Nansen",
+          "gender": "female"
+        }
+      ]
+    },
+    {
+      "slug": "pets_fi_strong",
+      "title": "Lyhyt & Vahva",
+      "description": "Lyhyet nimet, joissa on voimaa",
+      "language": "fi",
+      "style": "strong",
+      "names": [
+        {
+          "name": "Ukko",
+          "gender": "male"
+        },
+        {
+          "name": "Ahti",
+          "gender": "male"
+        },
+        {
+          "name": "Max",
+          "gender": "male"
+        },
+        {
+          "name": "Rex",
+          "gender": "male"
+        },
+        {
+          "name": "Karhu",
+          "gender": "male"
+        },
+        {
+          "name": "Myrsky",
+          "gender": "male"
+        },
+        {
+          "name": "Voima",
+          "gender": "male"
+        },
+        {
+          "name": "Susi",
+          "gender": "male"
+        },
+        {
+          "name": "Ilves",
+          "gender": "male"
+        },
+        {
+          "name": "Kotka",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "slug": "pets_fi_classic",
+      "title": "Klassiset Nimet",
+      "description": "Ajattomat ja tutut nimet",
+      "language": "fi",
+      "style": "classic",
+      "names": [
+        {
+          "name": "Eero",
+          "gender": "male"
+        },
+        {
+          "name": "Matti",
+          "gender": "male"
+        },
+        {
+          "name": "Pekka",
+          "gender": "male"
+        },
+        {
+          "name": "Aino",
+          "gender": "female"
+        },
+        {
+          "name": "Liisa",
+          "gender": "female"
+        }
+      ]
+    },
+    {
+      "slug": "pets_fi_funny",
+      "title": "Hauska & Leikkisä",
+      "description": "Nimet huumorilla ja persoonalla",
+      "language": "fi",
+      "style": "funny",
+      "names": [
+        {
+          "name": "Pansen",
+          "gender": "neutral"
+        },
+        {
+          "name": "Bansen",
+          "gender": "neutral"
+        },
+        {
+          "name": "Fansen",
+          "gender": "neutral"
+        }
+      ]
+    },
+    {
+      "slug": "pets_fi_vintage",
+      "title": "Vintage & Retro",
+      "description": "Retro-henkiset nimet",
+      "language": "fi",
+      "style": "vintage",
+      "names": [
+        {
+          "name": "Aarne",
+          "gender": "male"
+        },
+        {
+          "name": "Bertta",
+          "gender": "female"
+        },
+        {
+          "name": "Heikki",
+          "gender": "male"
+        },
+        {
+          "name": "Inkeri",
+          "gender": "female"
+        },
+        {
+          "name": "Juhani",
+          "gender": "male"
+        },
+        {
+          "name": "Kaarina",
+          "gender": "female"
+        },
+        {
+          "name": "Lauri",
+          "gender": "male"
+        },
+        {
+          "name": "Martta",
+          "gender": "female"
+        },
+        {
+          "name": "Niilo",
+          "gender": "male"
+        },
+        {
+          "name": "Olga",
+          "gender": "female"
+        },
+        {
+          "name": "Rauni",
+          "gender": "female"
+        },
+        {
+          "name": "Simo",
+          "gender": "male"
+        },
+        {
+          "name": "Tyyne",
+          "gender": "female"
+        },
+        {
+          "name": "Urho",
+          "gender": "male"
+        },
+        {
+          "name": "Vieno",
+          "gender": "female"
+        },
+        {
+          "name": "Väinö",
+          "gender": "male"
+        },
+        {
+          "name": "Hilma",
+          "gender": "female"
+        },
+        {
+          "name": "Toivo",
+          "gender": "male"
+        },
+        {
+          "name": "Helmi",
+          "gender": "female"
+        }
+      ]
+    },
+    {
+      "slug": "pets_fi_nature",
+      "title": "Luonnon Inspiroima",
+      "description": "Luonnosta ja ulkoilmasta inspiroituneet nimet",
+      "language": "fi",
+      "style": "nature",
+      "names": [
+        {
+          "name": "Koivu",
+          "gender": "female"
+        },
+        {
+          "name": "Tammi",
+          "gender": "male"
+        },
+        {
+          "name": "Mänty",
+          "gender": "female"
+        },
+        {
+          "name": "Kuusi",
+          "gender": "female"
+        },
+        {
+          "name": "Lehmus",
+          "gender": "female"
+        },
+        {
+          "name": "Joki",
+          "gender": "male"
+        },
+        {
+          "name": "Puro",
+          "gender": "male"
+        },
+        {
+          "name": "Järvi",
+          "gender": "male"
+        },
+        {
+          "name": "Metsä",
+          "gender": "male"
+        },
+        {
+          "name": "Niitty",
+          "gender": "female"
+        },
+        {
+          "name": "Aurinko",
+          "gender": "neutral"
+        },
+        {
+          "name": "Kuu",
+          "gender": "neutral"
+        },
+        {
+          "name": "Tähti",
+          "gender": "female"
+        },
+        {
+          "name": "Taivas",
+          "gender": "male"
+        },
+        {
+          "name": "Pilvi",
+          "gender": "neutral"
+        },
+        {
+          "name": "Lumi",
+          "gender": "female"
+        },
+        {
+          "name": "Sade",
+          "gender": "neutral"
+        },
+        {
+          "name": "Tuuli",
+          "gender": "male"
+        },
+        {
+          "name": "Halla",
+          "gender": "neutral"
+        },
+        {
+          "name": "Kukka",
+          "gender": "female"
+        },
+        {
+          "name": "Ruusu",
+          "gender": "female"
+        },
+        {
+          "name": "Lilja",
+          "gender": "female"
+        },
+        {
+          "name": "Kallio",
+          "gender": "neutral"
+        },
+        {
+          "name": "Kivi",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "slug": "pets_fi_petnicknames",
+      "title": "Lempinimet",
+      "description": "Hellittelynimet ja perinteiset kutsumanimet",
+      "language": "fi",
+      "style": "petnicknames",
+      "names": [
+        {
+          "name": "Kulta",
+          "gender": "neutral"
+        },
+        {
+          "name": "Rakas",
+          "gender": "neutral"
+        },
+        {
+          "name": "Sansen",
+          "gender": "neutral"
+        }
+      ]
+    }
+  ]
+}
