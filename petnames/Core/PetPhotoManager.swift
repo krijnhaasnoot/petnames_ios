@@ -59,6 +59,9 @@ final class PetPhotoManager: ObservableObject {
             petImage = resized
             print("✅ Pet photo saved")
             
+            // Track analytics
+            AnalyticsManager.shared.trackPetPhotoUploaded()
+            
             // Analyze photo for best text position
             Task {
                 await analyzePhotoForTextPosition(resized)
@@ -74,6 +77,9 @@ final class PetPhotoManager: ObservableObject {
         petImage = nil
         namePosition = .center
         print("🗑️ Pet photo deleted")
+        
+        // Track analytics
+        AnalyticsManager.shared.trackPetPhotoRemoved()
     }
     
     // MARK: - Photo Analysis

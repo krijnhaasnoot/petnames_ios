@@ -261,6 +261,10 @@ struct OnboardingView: View {
             
             createdInviteCode = inviteCode
             appState.setHousehold(id: householdId, inviteCode: inviteCode)
+            
+            // Track analytics
+            AnalyticsManager.shared.trackHouseholdCreated()
+            AnalyticsManager.shared.trackOnboardingCompleted(method: "create")
         } catch {
             errorMessage = error.localizedDescription
             showError = true
@@ -277,6 +281,10 @@ struct OnboardingView: View {
             )
             
             appState.setHousehold(id: householdId)
+            
+            // Track analytics
+            AnalyticsManager.shared.trackHouseholdJoined()
+            AnalyticsManager.shared.trackOnboardingCompleted(method: "join")
             
             // Notify other household members that someone joined
             let memberName = displayName.isEmpty ? "Iemand" : displayName

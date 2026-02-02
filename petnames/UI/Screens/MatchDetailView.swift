@@ -97,6 +97,9 @@ struct MatchDetailView: View {
                     Button {
                         // Generate image first, then show sheet
                         generateShareImage()
+                        // Track share
+                        AnalyticsManager.shared.trackMatchShared(shareType: "single", name: match.name)
+                        
                         // Small delay to ensure image is ready
                         DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
                             showShareSheet = true
@@ -115,6 +118,8 @@ struct MatchDetailView: View {
         }
         .task {
             await loadLikers()
+            // Track match viewed
+            AnalyticsManager.shared.trackMatchViewed(name: match.name)
         }
         .alert("Error", isPresented: $showError) {
             Button("OK") { showError = false }

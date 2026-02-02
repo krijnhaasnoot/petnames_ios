@@ -34,6 +34,8 @@ struct LikesView: View {
         }
         .task {
             await loadLikes()
+            // Track screen view
+            AnalyticsManager.shared.trackLikesViewed(count: likes.count)
         }
         .alert("Error", isPresented: $showError) {
             Button("OK") { showError = false }

@@ -304,6 +304,36 @@ struct FiltersSheetView: View {
     }
     
     private func saveFilters() {
+        // Track analytics for filter changes
+        let oldLanguages = appState.selectedLanguages
+        let oldStyles = appState.enabledStyles
+        let oldFilters = appState.filters
+        
+        // Track language changes
+        if selectedLanguages != oldLanguages {
+            AnalyticsManager.shared.trackLanguagesSelected(
+                languages: selectedLanguages.map { $0.rawValue }
+            )
+        }
+        
+        // Track style changes
+        if enabledStyles != oldStyles {
+            AnalyticsManager.shared.trackStylesEnabled(
+                styles: enabledStyles.map { $0.rawValue }
+            )
+        }
+        
+        // Track individual filter changes
+        if selectedGender != oldFilters.gender {
+            AnalyticsManager.shared.trackFilterChanged(filterType: "gender", value: selectedGender)
+        }
+        if selectedStartsWith != oldFilters.startsWith {
+            AnalyticsManager.shared.trackFilterChanged(filterType: "starts_with", value: selectedStartsWith)
+        }
+        if maxLength != oldFilters.maxLength {
+            AnalyticsManager.shared.trackFilterChanged(filterType: "max_length", value: String(maxLength))
+        }
+        
         // Save languages & styles
         appState.selectedLanguages = selectedLanguages
         appState.enabledStyles = enabledStyles

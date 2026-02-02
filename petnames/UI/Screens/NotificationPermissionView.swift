@@ -123,7 +123,7 @@ struct NotificationPermissionView: View {
                     .disabled(isRequesting)
                     
                     Button {
-                        onComplete()
+                        skipPermission()
                     } label: {
                         Text("Misschien later")
                             .fontWeight(.medium)
@@ -133,6 +133,10 @@ struct NotificationPermissionView: View {
                 .padding(.horizontal, 32)
                 .padding(.bottom, 40)
             }
+        }
+        .onAppear {
+            // Track permission screen shown
+            AnalyticsManager.shared.trackNotificationPermissionShown()
         }
     }
     
@@ -144,12 +148,26 @@ struct NotificationPermissionView: View {
             
             await MainActor.run {
                 isRequesting = false
+                
+                // Track permission result
+                if notificationManager.isAuthorized {
+                    AnalyticsManager.shared.trackNotificationPermissionGranted()
+                } else {
+                    AnalyticsManager.shared.trackNotificationPermissionDenied()
+                }
+                
                 // Small delay so user sees the result
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
                     onComplete()
                 }
             }
         }
+    }
+    
+    private func skipPermission() {
+        // Track skipped as denied
+        AnalyticsManager.shared.trackNotificationPermissionDenied()
+        onComplete()
     }
 }
 

@@ -54,6 +54,8 @@ struct ProfileView: View {
         }
         .task {
             await loadProfileData()
+            // Track screen view
+            AnalyticsManager.shared.trackProfileViewed()
         }
         .alert("Error", isPresented: $showError) {
             Button("OK") { showError = false }

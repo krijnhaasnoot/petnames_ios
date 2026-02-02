@@ -39,6 +39,9 @@ struct AboutView: View {
         .background(Color(UIColor.systemBackground))
         .navigationTitle("Over Petnames")
         .navigationBarTitleDisplayMode(.large)
+        .onAppear {
+            AnalyticsManager.shared.trackAboutViewed()
+        }
     }
     
     // MARK: - What is Petnames

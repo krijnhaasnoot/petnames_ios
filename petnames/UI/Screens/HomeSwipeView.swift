@@ -393,6 +393,11 @@ struct HomeSwipeView: View {
             // Check if empty
             if cardStack.isEmpty {
                 isEmpty = true
+                // Track analytics - no more names available
+                let hasFilters = appState.filters.gender != "any" || 
+                                 appState.filters.startsWith != "any" || 
+                                 appState.filters.maxLength > 0
+                AnalyticsManager.shared.trackCardStackEmpty(filtersActive: hasFilters)
             }
         } catch {
             // Only show error if we have no cards at all
@@ -434,6 +439,15 @@ struct HomeSwipeView: View {
               let userId = sessionManager.currentUserId else { return }
         
         lastSwipe = (card.id, card, .like)
+        
+        // Track analytics
+        AnalyticsManager.shared.trackNameSwiped(
+            decision: "like",
+            name: card.name,
+            gender: card.gender,
+            language: extractLanguage(from: card.setTitle),
+            style: extractStyle(from: card.setTitle)
+        )
         
         // Mark as swiped locally (for offline tracking)
         NamesRepository.shared.markNameAsSwiped(card.name)
@@ -485,6 +499,13 @@ struct HomeSwipeView: View {
                         matchedGender = card.gender
                         showMatchAlert = true
                         // No local notification needed - the in-app popup handles this
+                        
+                        // Track match analytics
+                        AnalyticsManager.shared.trackMatchCreated(
+                            name: card.name,
+                            gender: card.gender,
+                            householdSize: 2 // At least 2 for a match
+                        )
                     }
                     
                     // Send push to other household members
@@ -506,6 +527,15 @@ struct HomeSwipeView: View {
               let userId = sessionManager.currentUserId else { return }
         
         lastSwipe = (card.id, card, .dismiss)
+        
+        // Track analytics
+        AnalyticsManager.shared.trackNameSwiped(
+            decision: "dismiss",
+            name: card.name,
+            gender: card.gender,
+            language: extractLanguage(from: card.setTitle),
+            style: extractStyle(from: card.setTitle)
+        )
         
         // Mark as swiped locally (for offline tracking)
         NamesRepository.shared.markNameAsSwiped(card.name)
@@ -535,6 +565,9 @@ struct HomeSwipeView: View {
         guard let swipe = lastSwipe,
               let householdId = appState.householdId,
               let userId = sessionManager.currentUserId else { return }
+        
+        // Track analytics
+        AnalyticsManager.shared.trackSwipeUndone()
         
         // Undo the local swipe tracking
         NamesRepository.shared.undoSwipe(swipe.card.name)
@@ -568,6 +601,41 @@ struct HomeSwipeView: View {
                 }
             }
         }
+    }
+    
+    // MARK: - Analytics Helpers
+    
+    /// Extract language code from set title (e.g. "Lief & Schattig" -> "nl")
+    private func extractLanguage(from setTitle: String) -> String {
+        // Map titles to languages based on known patterns
+        let dutchTitles = ["Lief & Schattig", "Kort & Krachtig", "Klassiek", "Grappig & Speels", "Vintage", "Natuur", "Koosnaampjes"]
+        let englishTitles = ["Cute & Sweet", "Short & Strong", "Classic Names", "Funny & Playful", "Vintage & Old-School", "Nature Inspired", "Pet Nicknames"]
+        
+        if dutchTitles.contains(where: { setTitle.contains($0) }) { return "nl" }
+        if englishTitles.contains(where: { setTitle.contains($0) }) { return "en" }
+        
+        // Default based on first selected language
+        return appState.selectedLanguages.first?.rawValue ?? "unknown"
+    }
+    
+    /// Extract style from set title (e.g. "Lief & Schattig" -> "cute")
+    private func extractStyle(from setTitle: String) -> String {
+        let styleMap: [String: String] = [
+            "Lief": "cute", "Cute": "cute", "Schattig": "cute", "Sweet": "cute",
+            "Kort": "strong", "Short": "strong", "Krachtig": "strong", "Strong": "strong",
+            "Klassiek": "classic", "Classic": "classic",
+            "Grappig": "funny", "Funny": "funny", "Speels": "funny", "Playful": "funny",
+            "Vintage": "vintage", "Old-School": "vintage",
+            "Natuur": "nature", "Nature": "nature",
+            "Koosnaampjes": "petnicknames", "Nicknames": "petnicknames"
+        ]
+        
+        for (keyword, style) in styleMap {
+            if setTitle.contains(keyword) {
+                return style
+            }
+        }
+        return "unknown"
     }
 }
 

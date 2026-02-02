@@ -59,6 +59,9 @@ struct MatchesView: View {
                 if !matches.isEmpty {
                     ToolbarItem(placement: .primaryAction) {
                         Button {
+                            // Track share
+                            AnalyticsManager.shared.trackMatchShared(shareType: "list")
+                            
                             // Generate image first, then show sheet
                             generateShareImage()
                             // Small delay to ensure image is ready
@@ -77,6 +80,8 @@ struct MatchesView: View {
         }
         .task {
             await loadMatches()
+            // Track screen view
+            AnalyticsManager.shared.trackMatchesListViewed(count: matches.count)
         }
         .alert("Error", isPresented: $showError) {
             Button("OK") { showError = false }

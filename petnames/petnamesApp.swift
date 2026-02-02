@@ -8,6 +8,7 @@
 import SwiftUI
 import UIKit
 import UserNotifications
+import FirebaseCore
 
 @main
 struct petnamesApp: App {
@@ -50,6 +51,9 @@ class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDele
         _ application: UIApplication,
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil
     ) -> Bool {
+        // Configure Firebase
+        FirebaseApp.configure()
+        
         // Set notification delegate
         UNUserNotificationCenter.current().delegate = self
         return true
@@ -99,6 +103,9 @@ class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDele
         
         // Handle different notification types
         if let type = userInfo["type"] as? String {
+            // Track notification tap
+            AnalyticsManager.shared.trackNotificationTapped(type: type)
+            
             switch type {
             case "match":
                 // Navigate to matches
