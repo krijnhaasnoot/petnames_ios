@@ -53,8 +53,7 @@ struct AboutView: View {
     private var whatIsPetnamesSection: some View {
         VStack(alignment: .leading, spacing: 12) {
             Label("Wat is Petnames?", systemImage: "sparkles")
-                .font(.title2)
-                .fontWeight(.semibold)
+                .font(.custom("Poppins-Bold", size: 22))
             
             Text("Petnames helpt je samen de perfecte naam te vinden voor je huisdier.")
                 .font(.body)
@@ -71,8 +70,7 @@ struct AboutView: View {
     private var featuresSection: some View {
         VStack(alignment: .leading, spacing: 12) {
             Label("Wat kun je ermee?", systemImage: "list.bullet.rectangle")
-                .font(.title2)
-                .fontWeight(.semibold)
+                .font(.custom("Poppins-Bold", size: 22))
             
             VStack(alignment: .leading, spacing: 10) {
                 FeatureRow(icon: "person.2.fill", color: .blue, text: "Samen swipen met je partner via een invite code")
@@ -88,8 +86,7 @@ struct AboutView: View {
     private var aboutMakerSection: some View {
         VStack(alignment: .leading, spacing: 12) {
             Label("Over de maker", systemImage: "person.fill")
-                .font(.title2)
-                .fontWeight(.semibold)
+                .font(.custom("Poppins-Bold", size: 22))
             
             VStack(alignment: .leading, spacing: 12) {
                 Text("Petnames is gemaakt door de maker van Kinder – de populaire babynamen app waarmee al duizenden ouders de perfecte naam voor hun kindje hebben gevonden.")
@@ -135,8 +132,7 @@ struct AboutView: View {
     private var contactSection: some View {
         VStack(alignment: .leading, spacing: 12) {
             Label("Contact", systemImage: "envelope.fill")
-                .font(.title2)
-                .fontWeight(.semibold)
+                .font(.custom("Poppins-Bold", size: 22))
             
             Text("Vragen, suggesties of feedback? Neem gerust contact op!")
                 .font(.body)
@@ -145,7 +141,7 @@ struct AboutView: View {
             // WhatsApp button
             Link(destination: whatsAppURL) {
                 HStack(spacing: 8) {
-                    Image("whatsappIcon")
+                    Image("whatappIcon")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 24, height: 24)
